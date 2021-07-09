@@ -1,0 +1,63 @@
+
+.arrow-light .owl-carousel { position: relative; }
+.arrow-light .owl-carousel .owl-nav { position: absolute; width: 100%; top: 50%; margin-top: -30px; }
+.arrow-light .owl-carousel .owl-nav > div { width: 50px; height: 50px; display: inline-block; color: transparent; opacity: .8; }
+.arrow-light .owl-carousel .owl-nav > div:hover { opacity: 1; color: transparent; }
+.arrow-light .owl-carousel .owl-nav > div.owl-prev { background: url(../img/nav-ab-l.png) top center/contain no-repeat; margin-left: -9%; float: left; }
+.arrow-light .owl-carousel .owl-nav > div.owl-next { background: url(../img/nav-ab-r.png) top center/contain no-repeat; margin-right: -9%; float: right; }
+
+@media screen and (max-width: 600px) { .arrow-light.owl-carousel .owl-nav > div { opacity: .4; }
+    .arrow-light.owl-carousel .owl-nav > div.owl-prev { margin-left: -40px; }
+    .arrow-light.owl-carousel .owl-nav > div.owl-next { margin-right: -40px; } }
+.section-advantages { background: url(../img/sec5-bg.jpg) top center/cover no-repeat; background-position: 38% top; padding-bottom: 0; }
+.section-advantages ul { padding-left: 0; list-style: none; }
+.section-advantages ul li { font-size: 16px; margin-bottom: 25px; position: relative; }
+.section-advantages ul li::before { content: ""; width: 8px; height: 8px; display: inline-block; border-radius: 50%; background-color: #9b6909; position: absolute; left: -20px; top: 5px; }
+@media screen and (max-width: 767px) { .section-advantages { background-position: center top; }
+    .section-advantages .heading h2 { margin-top: 30px; }
+    .section-advantages ul li { padding-left: 20px; }
+    .section-advantages ul li::before { left: 0; } }
+
+.shine-target { display: inline-block; margin-top: 30px; position: relative; }
+
+.shine-target:before { content: ""; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-position: -250px -250px; background-repeat: no-repeat; background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0%, rgba(255, 255, 255, 0.3)), color-stop(37%, rgba(255, 255, 255, 0.3)), color-stop(45%, rgba(255, 255, 255, 0.8)), color-stop(50%, rgba(255, 255, 255, 0))); background-image: -moz-linear-gradient(0 0, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 37%, rgba(255, 255, 255, 0.8) 45%, rgba(255, 255, 255, 0) 50%); -moz-background-size: 250% 250%, 100% 100%; -o-background-size: 250% 250%; background-size: 250% 250%; -webkit-transition: background-position 0s ease; -moz-transition: background-position 0s ease; transition: background-position 0s ease; }
+
+.shine-target:hover:before, .shine-target:focus:before { background-position: 0 0; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; transition-duration: 0.5s; }
+
+.shine-target:active:before { opacity: 0; }
+
+/*
+|--------------------------------------------------------------------------
+| Cool Button CTA
+|--------------------------------------------------------------------------
+| Call to action button with sliding background. Sliding color can be
+| easily customized by extending cool-btn-cta class. Second color
+| is for origin state, first color if for hover state.
+*/
+.cool-btn-cta { color: transparent; background: url(../img/btn-special.png) top center/contain no-repeat; width: 230px; height: 48px; text-align: center; text-transform: uppercase; margin: 20px auto; padding: 12px 30px; border-radius: 0; font-size: 1.5em; display: inline-block; transition: all 0.4s; font-weight: bold; }
+.cool-btn-cta:hover, .cool-btn-cta:focus { text-decoration: none; color: transparent; background-position: top center; box-shadow: none; }
+.cool-btn-cta.btn-black { color: #fff; background-image: linear-gradient(to right, #333 50%, #111 50%); }
+.cool-btn-cta.btn-red { color: #fff; background: linear-gradient(to right, #e8353c 50%, #db2128 50%); }
+.cool-btn-cta.btn-transparent { color: #af7826; background: transparent; }
+.cool-btn-cta.btn-border { border: 2px solid #af7826; }
+
+/* Shine */
+.cool-btn-cta { position: relative; overflow: hidden; }
+
+.cool-btn-cta::before { position: absolute; top: 0; left: -75%; z-index: 2; display: block; content: ''; width: 50%; height: 100%; background: -webkit-linear-gradient(left, rgba(249, 240, 0, 0) 0%, rgba(249, 240, 0, 0.7) 100%); background: linear-gradient(to right, rgba(249, 240, 0, 0) 0%, rgba(249, 240, 0, 0.7) 100%); -webkit-transform: skewX(-25deg); transform: skewX(-25deg); }
+
+.cool-btn-cta:hover::before { -webkit-animation: shine .75s; animation: shine .75s; }
+
+@-webkit-keyframes shine { 100% { left: 125%; } }
+@keyframes shine { 100% { left: 125%; } }
+.section-testimonial .arrow-light .owl-carousel .owl-nav > div.owl-prev { background: url(../img/nav-ab-l.png) top center/contain no-repeat; margin-left: 0; float: left; }
+.section-testimonial .arrow-light .owl-carousel .owl-nav > div.owl-next { background: url(../img/nav-ab-r.png) top center/contain no-repeat; margin-right: 0; float: right; }
+.section-testimonial .arrow-light .owl-carousel .owl-nav { position: absolute; width: 100%; top: 27%; margin-top: -50px; }
+.section-testimonial .testimonial-carousel .img-wrapper img { max-width: 200px; margin: 0 auto; }
+.section-testimonial .testimonial-carousel .description { text-align: center; }
+.section-testimonial .testimonial-carousel p { margin: 0; }
+.section-testimonial .testimonial-carousel .txt-1 { line-height: 1.6; margin: 20px 0; text-align: center; }
+.section-testimonial .testimonial-carousel .txt-2 { font-size: 16px; margin-top: 15px; }
+.section-testimonial .testimonial-carousel .txt-3 { font-size: 13px; }
+.section-testimonial.shiruku .testimonial-carousel .txt-2 strong { display: block; text-transform: uppercase; color: #d4aa51; font-weight: normal; }
+.section-testimonial.shiruku .testimonial-carousel .img-wrapper img { max-width: 274px; }

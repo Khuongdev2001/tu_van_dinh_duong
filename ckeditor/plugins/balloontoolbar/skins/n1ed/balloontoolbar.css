@@ -1,0 +1,22 @@
+.cke_balloon.cke_balloontoolbar span:last-child a:last-child::after,
+.cke_balloon.cke_balloontoolbar span:last-child a:last-child:hover::after,
+.cke_balloon.cke_balloontoolbar span:last-child::after
+{
+	border-right: 0;
+}
+
+.cke_balloon.cke_balloontoolbar .cke_combo
+{
+	margin-bottom: 0;
+	margin-right: 2px;
+}
+
+/*--Style balloon for n1ed--*/
+
+.cke_balloon.cke_balloontoolbar {
+	background: #ffffff;
+}
+
+.cke_balloon.cke_balloontoolbar .cke_balloon_content {
+	padding: 0;
+}

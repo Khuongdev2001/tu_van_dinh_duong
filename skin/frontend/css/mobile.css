@@ -1,0 +1,43 @@
+.toggle-menu{
+    display: none;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 0;
+}
+#owl-one-slide img{
+    max-width: 100%;
+}
+
+@media (max-width:768px) {
+    .main-header ul li{
+        width: 100%;
+        float: none;
+        display: block !important;;
+    }
+    #primary-menu{
+        display: none;
+    }
+    .toggle-menu{
+        display: inline-block;
+    }
+    .main-menu ul li{
+        float: none!important;
+        width: 100%;
+    }
+    .main-menu #primary-menu ul li.item-menu a{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .main-menu ul li ul{
+        position: static!important;
+    }
+    .col-off{
+        display: none;
+    }
+    .logo img{
+        margin-bottom: 10px;
+    }
+
+}

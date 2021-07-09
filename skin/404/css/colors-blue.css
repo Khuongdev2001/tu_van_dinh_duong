@@ -1,0 +1,68 @@
+/******************
+
+Color scheme
+
+******************/
+
+body
+{
+    background-color: #f4fbff; /* Body background color */
+}
+
+#nav
+{
+    border: 1px solid #048BE6; /* Navigation border */
+
+    /* Navigation background gradient */
+    background: #048BE6;
+    background: -moz-linear-gradient(90deg,  #048BE6, #6FC2FB);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6FC2FB), color-stop(100%, #048BE6));
+    background: -webkit-linear-gradient(90deg,  #048BE6, #6FC2FB);
+    background: -o-linear-gradient(90deg,  #048BE6, #6FC2FB);
+    background: -ms-linear-gradient(90deg,  #048BE6, #6FC2FB);
+    background: linear-gradient(90deg,  #048BE6, #6FC2FB);
+}
+
+#nav a:hover
+{
+    background: #0372BC; /* Navigation link background on hover */
+}
+
+#search
+{
+    border: 1px solid #0372BC; /* Searchbox border */
+}
+
+
+/* #Media Queries
+================================================== */
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px)
+{
+    #nav
+    {
+        /* Navigation is transparent for mobile devices */
+        background: transparent;
+        border: none;
+
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    #nav > a
+    {
+        color: #2883DE; /* Navigation link colors for mobile devices */
+    }
+
+    #nav > a:hover, #nav > a:active
+    {
+        background: transparent; /* Navigation links background is transparent for mobile devices */
+    }
+
+    #search
+    {
+        border-color: #999; /* Searchbox border for mobile devices */
+    }
+}

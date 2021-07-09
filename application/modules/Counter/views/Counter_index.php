@@ -1,0 +1,1 @@
+<?php echo number_format($counter_all,0,'','.') ;?>

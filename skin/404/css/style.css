@@ -1,0 +1,226 @@
+/******************
+
+Template stylesheet
+
+******************/
+
+/* BODY */
+
+body
+{
+    margin: 0;
+    background: #fff url(../img/background.png) top left repeat;
+    font: 14px/1.4 "Lato", sans-serif;
+    color: #363636;
+}
+
+/* COMMON STYLES */
+
+p
+{
+    margin: 0 0 25px 0;
+}
+
+.ultrabold
+{
+    font-weight: 900;
+}
+
+/* HEADER */
+
+#header
+{
+    padding: 5px 0;
+}
+
+/* LOGO */
+
+#logo
+{
+    display: inline-block;
+}
+
+#logo img
+{
+    height: 36px;
+    width: 127px;
+}
+
+/* NAVIGATION */
+
+#nav
+{
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 3px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 3px rgba(0, 0, 0, 0.33);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+
+#nav a
+{
+    display: inline-block;
+    font: 15px/30px "Lato", sans-serif;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.66);
+    text-decoration: none;
+    padding: 0 6px;
+    margin: 0 6px;
+}
+
+#nav a:hover
+{
+    border-radius: 4px;
+}
+
+/* SEARCH */
+
+#search
+{
+    width: 250px;
+    float: right;
+    padding: 6px 4px;
+    outline: none;
+    margin-right: 15px;
+    line-height: 14px;
+    color: #363636;
+    border: 1px solid #5A5A5A;
+    border-radius: 4px;
+
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.5);
+
+    background: -moz-linear-gradient(90deg, #eaeaea, #fafafa);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fafafa), color-stop(100%, #eaeaea));
+    background: -webkit-linear-gradient(90deg, #eaeaea, #fafafa);
+    background: -o-linear-gradient(90deg, #eaeaea, #fafafa);
+    background: -ms-linear-gradient(90deg, #eaeaea, #fafafa);
+    background: linear-gradient(90deg, #eaeaea, #fafafa);
+}
+
+#search:focus
+{
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* ADDITIONAL MESSAGE */
+
+#message
+{
+    margin-top: 60px;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 1;
+}
+
+/* ERROR MESSAGE */
+
+#error
+{
+    float: right;
+    margin-top: 87px;
+    font: 300 72px/0.8 "Lato", sans-serif;
+    color: #363636;
+}
+
+#error > span
+{
+    display: inline-block;
+}
+
+#error-code
+{
+    font-weight: 900;
+    font-size: 180px;
+}
+
+#error-text
+{
+    margin-left: 16px;
+}
+
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px)
+{
+
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px)
+{
+    #nav
+    {
+        height: auto;
+        padding: 0;
+        margin-bottom: 25px;
+        background: transparent;
+        border: none;
+
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    #nav > a
+    {
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 288px;
+        font-size: 20px;
+        text-shadow: none;
+    }
+
+    #nav > a:hover, #nav > a:active
+    {
+        color: #000;
+        background: transparent;
+    }
+
+    #search
+    {
+        width: 290px;
+        float: none;
+        margin-top: 25px;
+        border-color: #999;
+    }
+
+    #message
+    {
+        margin-top: 25px;
+        font-size: 24px;
+    }
+
+    #error
+    {
+        float: none;
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+    #error-code
+    {
+        font-size: 40px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}

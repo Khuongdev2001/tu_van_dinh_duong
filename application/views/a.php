@@ -1,0 +1,1 @@
+UPDATE `bigweb_article` SET `content_text`=REPLACE(`content_text`,"khoedep360.com.vn","");

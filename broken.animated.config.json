@@ -1,0 +1,20 @@
+{
+    "crack":
+    {
+        "angle": -30,
+        "image": "crack.png",
+        "image_left": 110,
+        "image_top": 55,
+        "animate": 1,
+        "duration": 500,
+        "easing": ""
+    },
+    "swing":
+    {
+        "angle": 135,
+        "animate": 1,
+        "duration": 750,
+        "angle_attenuation": 0.75,
+        "speed_attenuation": 0.7
+    }
+}

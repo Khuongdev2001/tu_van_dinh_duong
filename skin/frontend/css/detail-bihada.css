@@ -1,0 +1,467 @@
+.nang-co {
+    padding: 150px 0;
+}
+
+.bihada-about .txtbox {
+    max-width: 95%;
+    padding-left: 5%;
+}
+
+.txt39 {
+    text-transform: uppercase;
+    color: #B88328;
+    font-size: 18px;
+}
+
+.nang-co p {
+    line-height: 35px;
+    margin: 30px auto;
+}
+
+.nang-co h3.title {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.bihada-about h3.title {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #666666;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.bihada-about .txtbox p:not(.txt39) {
+    color: #666;
+}
+
+.bihada-about .b-a-blk p {
+    color: #ae7827;
+    margin-top: 25px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.bihada-about .b-a-blk p b {
+    font-weight: bold;
+}
+
+.lieu-trinh-nang-co {
+    text-align: center;
+}
+
+.lieu-trinh-nang-co {
+    background: url(../images/lieu-trinh-nang-co.jpg) no-repeat center top;
+    float: left;
+    width: 100%;
+    background-size: cover;
+    line-height: 35px;
+    padding: 100px 0;
+}
+
+.txt40 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 15px 0 45px 0;
+}
+
+.bihada-4-step {
+    background: #fff0e0;
+    color: #666;
+    background-size: cover;
+    padding: 0 0 100px;
+}
+
+.cac-buoc-nang-co p {
+    font-size: 16px;
+}
+
+.bihada-4-step .bg-eri {
+    background: url(../images/bg-step-block.png) top right no-repeat;
+    background-size: contain;
+}
+
+.bihada-4-step .desc {
+    text-align: left;
+    padding: 70px 0;
+}
+
+.bihada-4-step .desc .txt40 {
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+.bihada-4-step .desc p.big {
+    color: #ae7827;
+    text-transform: uppercase;
+    font-size: 2.8em;
+    line-height: 1.6em;
+}
+
+.cac-buoc-nang-co {
+    border: 1px solid #B88328;
+    padding: 45px 10px;
+    margin: 45px 0;
+}
+
+.bihada-4-step .cac-buoc-nang-co {
+    background: white;
+    margin: 0 0 45px;
+    border: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.txt42 {
+    font-family: "utm_avobold", sans-serif;
+    text-transform: uppercase;
+}
+
+.cac-buoc-nang-co .col-sm-3 {
+    border-right: 1px solid #B88328;
+}
+
+.bihada-4-step .cac-buoc-nang-co .col-sm-3 {
+    border-color: rgba(183, 140, 31, 0.2);
+}
+
+.cac-buoc-nang-co .col-sm-3:last-child {
+    border-right: none;
+}
+
+.bihada-4-step .cac-buoc-nang-co .txt42 {
+    color: #b78c1f;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+.bihada-4-step .cac-buoc-nang-co p.sub {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+.bihada-4-step .cac-buoc-nang-co p:last-child {
+    color: #ae7827;
+    line-height: 1.8em;
+    font-size: 1.1em;
+}
+
+.lieu-trinh-nang-co .animate-btn {
+    letter-spacing: 2px;
+    max-width: none;
+    border: none !important;
+    background: #ae7827;
+    padding: 15px 40px;
+    color: #fff;
+    font-family: 'utm_avobold', sans-serif;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.bihada-4-step .animate-btn {
+    margin: 30px auto;
+    float: none;
+}
+
+.hvr-shutter-out-horizontal:before {
+    background: #cc933e;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+    color: white;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.lieu-trinh-nang-co .animate-btn:hover {
+    border: none !important;
+    background: #BF8E39;
+}
+
+.bihada-bafter {
+    background: #f0ecdf;
+    padding: 100px 0;
+    display: flex;
+}
+
+.bihada-bafter h3.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    color: #666;
+    line-height: 1.6em;
+    letter-spacing: 2px;
+}
+
+.bihada-bafter .carousel {
+    overflow: hidden;
+}
+.bihada-bafter .txtbox {
+    min-height: 150px;
+}
+.bihada-bafter .txtbox p.txt-1 {
+    font-size: 1.2em;
+    color: #666;
+    margin: 30px 0 10px;
+    line-height: 1.5em;
+}
+.bihada-bafter .txtbox p.txt-2 {
+    font-size: 2em;
+    color: #ae7827;
+    line-height: 1.5em;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+.carousel-control {
+    opacity: 1;
+}
+
+.carousel-control.left {
+    background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0), color-stop(rgba(0, 0, 0, 0.0001) 100%));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    width: 36px;
+    height: 36px;
+    top: 40%;
+    z-index: 1;
+}
+
+.bihada-bafter .carousel-control:hover {
+    opacity: .5;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0), color-stop(rgba(0, 0, 0, 0.5) 100%));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    width: 36px;
+    height: 36px;
+    top: 40%;
+    z-index: 1;
+}
+
+.bihada-bafter .carousel-control.left, .bihada-bafter .carousel-control.right {
+    width: 15%;
+    top: 0;
+    height: auto;
+}
+.bihada-bafter .carousel-control.left{
+    left: -120px;
+}
+.bihada-bafter .carousel-control.right{
+    right: -100px;
+}
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+    left: 50%;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    font-family: serif;
+}
+
+.bihada-bafter .carousel-control .icon-next, .bihada-bafter .carousel-control .icon-prev {
+    width: 70px;
+    height: auto;
+    margin-left: 0;
+    top: 30%;
+}
+.facility-carousel-services {
+    padding: 0;
+}
+@media screen and (min-width: 768px) {
+    .carousel-control .glyphicons-chevron-left, .carousel-control .glyphicons-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        margin-left: -15px;
+        font-size: 30px;
+    }
+}
+.footer-wrapper {
+    background: #fff9e0;
+    background: -moz-linear-gradient(top,#fff9e0 0%,#ffe695 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff9e0),color-stop(100%,#ffe695));
+    background: -webkit-linear-gradient(top,#fff9e0 0%,#ffe695 100%);
+    background: -o-linear-gradient(top,#fff9e0 0%,#ffe695 100%);
+    background: -ms-linear-gradient(top,#fff9e0 0%,#ffe695 100%);
+    background: linear-gradient(to bottom,#fff9e0 0%,#ffe695 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9e0',endColorstr='#ffe695',GradientType=0);
+    clear: both;
+    padding: 60px 0px 10px;
+}
+#address-footer {
+    padding: 0px;
+    text-align: center;
+}
+.eri-add {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.eri-add-label {
+    color: #444444;
+    float: left;
+    margin: 0px 0px 15px 0;
+}
+.eri-address {
+    color: #B88328;
+    text-align: left;
+    float: left;
+}
+.eri-address img {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

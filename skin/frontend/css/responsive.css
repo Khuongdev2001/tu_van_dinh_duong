@@ -1,0 +1,278 @@
+@media (max-width: 768px) {
+    header.home-menu,header{
+        background: #840094;
+        position: relative;
+    }
+    header.divfixed{
+        height: auto;
+        position: relative;
+    }
+    .nav{
+        background: transparent;
+    }
+    /*Menu*/
+    .col-az{
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        width: 100%;
+        margin-top: 0px;
+        display: none;
+    }
+    .togger-menu {
+        background: transparent;
+        padding-bottom: 0px;
+        margin-top: 3px;
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+    }
+    .togger-menu a {
+        float: left;
+        color: #fff;
+        font-size: 22px;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: block;
+        height: 40px;
+        padding: 2px;
+        text-decoration: none;
+    }
+    .togger-menu i {
+        float: right;
+        right: 0;
+        position: absolute;
+        color: #fff;
+        font-size: 25px;
+        cursor: pointer;
+        margin-right: 15px;
+        top: 12px;
+    }
+    .togger-menu-sub {
+        float: right;
+        color: #fff;
+        right: 0px;
+        top: 0px;
+        position: absolute;
+        display: block;
+    }
+    .nav ul li a {
+        text-decoration: none;
+        width: 100%;
+        display: inline-block;
+        font-weight: 500;
+    }
+
+    header .nav ul li a{
+        color: #fff;
+    }
+
+    .nav ul li:hover {
+        transition: all 0.25s;
+        color: #fff;
+    }
+
+    .menu ul li ul li {
+        padding: 0px 15px;
+        width: 85%;
+        border-top: none;
+        border-left: none;
+        line-height: 40px;
+        color: #666;
+    }
+
+    .menu ul li ul li a {
+        color: #000;
+    }
+    .nav ul li a.note-pa{
+        background: transparent;
+        padding: 0;
+    }
+    .menu ul li:hover ul {
+        display: block;
+    }
+
+    .menu ul li ul {
+        display: none;
+        position: static;
+        top: 45px;
+        width: 330px;
+        left: 0px;
+        z-index: 99999;
+        /*background: #ffffff;*/
+    }
+
+    .nav ul li ul {
+        display: none;
+        top: 45px;
+        width: 100%;
+        left: 0px;
+        z-index: 99999;
+        /*background: #fff;*/
+        border: 0px;
+    }
+
+    .menu ul li {
+        width: 100%;
+        display: inline-block;
+        list-style: none;
+        float: left;
+        padding: 0;
+        font-size: 16px;
+        height: auto;
+        line-height: 37px;
+        text-transform: none;
+        border-bottom: 1px solid #55120b;
+    }
+
+    .banner_header img {
+        width: 100%;
+        height: 120px;
+    }
+
+    .logo {
+        position: relative;
+        margin: 10px 15px 10px 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .slide img {
+        width: 100%;
+        /*height: 250px;*/
+    }
+
+    #menu-primary a i {
+        display: none;
+    }
+
+    .ads-left{
+        display: none;
+    }
+
+    header .logo{
+        display: none;
+    }
+    .sub-menu{
+        position: static!important;
+        z-index: 99999;
+    }
+    .nav ul li{
+        background: none;
+        position: relative;
+    }
+    .nav ul{
+        margin-right: 0;
+        /*background: #fff;*/
+        display: block;
+    }
+
+    .menu ul li ul li{
+        width: 100%;
+    }
+    .menu-product{
+        height: auto;
+    }
+    .div-fixed{
+        position: relative;
+    }
+    .list-benefit{
+        padding: 0;
+    }
+    .box-user ul li{
+        padding: 0 4px;
+    }
+    .home-pro{
+        margin-top: 0;
+    }
+    .menu-cate-product ul{
+        margin-bottom: 0;
+    }
+    .btn-next-buy{
+        margin-bottom: 10px;
+    }
+    .title-footer{
+        margin-bottom: 5px ;
+        margin-top: 10px;
+    }
+    .button-detail{
+        margin-top: 10px;
+    }
+    .list-picture{
+        background: none;
+        padding: 0;
+    }
+    .list-gallery img{
+        max-height: none;
+    }
+    .cate-title a{
+        font-size: 14px;
+    }
+    .panel-course{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .p-text-course{
+        font-size: 13px;
+    }
+    .btn-dk{
+        display: block;
+        margin: 15px auto 0 auto;
+    }
+    .item-home-mobile{
+        display: none!important;
+    }
+}
+@media (max-width: 480px) {
+    .vi-phone,.vi-email{
+        font-size: 14px;
+    }
+    .box-user button{
+        font-size: 14px;
+        padding: 7px 15px;
+    }
+    .number-pro{
+        width: 100%;
+        float: none;
+        height: 100px;
+        line-height: 100px;
+        /*border-bottom: 1px solid #000000;*/
+        border-right:none;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .number-pro span{
+        display: none;
+    }
+    .content-pro{
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        height: auto;
+    }
+    .content-pro-in{
+        height: auto;
+    }
+    .pro-img{
+        width: 100%;
+        float: none;
+        text-align: center;
+        display: none;
+    }
+    .pro-text{
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+    .title-pro{
+        font-size: 20px;
+    }
+    .list-course-all{
+        margin-top: 0px;
+    }
+    .reg-form{
+        padding: 15px 0;
+    }
+
+}

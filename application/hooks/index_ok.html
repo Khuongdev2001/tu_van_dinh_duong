@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="vi" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="pingback" href="">
+    <link type="text/css" media="all"
+          href="https://thachpham.com/wp-content/cache/autoptimize/css/autoptimize_0755ece965e20794e62afbe6e97ee74d.css"
+          rel="stylesheet"/>
+    <title>Thủ thuật WordPress - SEO - Hosting - Web Development</title>
+    <meta name="description"
+          content="Hướng dẫn làm website bằng WordPress,các công cụ làm website hay,đánh giá dịch vụ host nước ngoài và Việt Nam,kinh nghiệm SEO website,thủ thuật website"/>
+    <meta name="robots" content="noodp"/>
+    <link rel="canonical" href="https://thachpham.com/"/>
+    <link rel="publisher" href="https://plus.google.com/b/113591657045991604117/+Thachpham"/>
+    <meta property="og:locale" content="vi_VN"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Thủ thuật WordPress - SEO - Hosting - Web Development"/>
+    <meta property="og:description"
+          content="Hướng dẫn làm website bằng WordPress,các công cụ làm website hay,đánh giá dịch vụ host nước ngoài và Việt Nam,kinh nghiệm SEO website,thủ thuật website"/>
+    <meta property="og:url" content="https://thachpham.com/"/>
+    <meta property="og:site_name" content="Thach Pham"/>
+    <meta property="fb:app_id" content="294753910669115"/>
+    <meta property="og:image" content="https://thachpham.com/wp-content/uploads/2014/10/tp-logo.png"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:description"
+          content="Hướng dẫn làm website bằng WordPress,các công cụ làm website hay,đánh giá dịch vụ host nước ngoài và Việt Nam,kinh nghiệm SEO website,thủ thuật website"/>
+    <meta name="twitter:title" content="Thủ thuật WordPress - SEO - Hosting - Web Development"/>
+    <meta name="twitter:image" content="https://thachpham.com/wp-content/uploads/2014/10/tp-logo.png"/>
+    <meta name="twitter:creator" content="@thachpham92"/>
+    <script type='application/ld+json'>
+        {"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/thachpham.com\/","name":"Th\u1ea1ch Ph\u1ea1m Blog","alternateName":"Thach Pham Blog","potentialAction":{"@type":"SearchAction","target":"https:\/\/thachpham.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}
+    </script>
+    <script type='application/ld+json'>
+        {"@context":"http:\/\/schema.org","@type":"Person","url":"https:\/\/thachpham.com\/","sameAs":["https:\/\/facebook.com\/thachphamdotcom","https:\/\/plus.google.com\/b\/113591657045991604117\/+Thachpham","https:\/\/www.youtube.com\/channel\/UCslwNv1ZnhlidwXSxRX2dwg"],"@id":"#person","name":"Th\u1ea1ch Ph\u1ea1m"}
+    </script>
+    <link rel='dns-prefetch' href='//s0.wp.com'/>
+    <link rel='dns-prefetch' href='//oss.maxcdn.com'/>
+    <link rel='dns-prefetch' href='//a.optnmnstr.com'/>
+    <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
+    <link rel='dns-prefetch' href='//s.w.org'/>
+    <link rel="alternate" type="application/rss+xml" title="Dòng thông tin Thach Pham &raquo;"
+          href="https://thachpham.com/feed"/>
+    <link rel="alternate" type="application/rss+xml" title="Dòng phản hồi Thach Pham &raquo;"
+          href="https://thachpham.com/comments/feed"/>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+    <script>window.OneSignal = window.OneSignal || [];
+
+    OneSignal.push(function () {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+        OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+        OneSignal.SERVICE_WORKER_PARAM = {scope: '/'};
+
+        OneSignal.setDefaultNotificationUrl("https://thachpham.com");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+        oneSignal_options['appId'] = '898a18d2-c7d2-48eb-92d7-c1dfc54bbbb7';
+        oneSignal_options['autoRegister'] = false;
+        oneSignal_options['welcomeNotification'] = {};
+        oneSignal_options['welcomeNotification']['title'] = "Nhận thông báo từ ThachPham Blog";
+        oneSignal_options['welcomeNotification']['message'] = "Đăng ký để nhận các thông báo quan trọng từ thachpham.com với những thông tin bổ ích.";
+        oneSignal_options['subdomainName'] = "thachpham";
+        oneSignal_options['safari_web_id'] = "web.onesignal.auto.07146831-e5cf-4801-bde7-1fd4b21ac045";
+        oneSignal_options['promptOptions'] = {};
+        oneSignal_options['promptOptions']['actionMessage'] = 'Bạn muốn hiển thị thông báo các bài viết mới nhất?';
+        oneSignal_options['promptOptions']['exampleNotificationTitleDesktop'] = 'Tiêu đề thông báo';
+        oneSignal_options['promptOptions']['exampleNotificationMessageDesktop'] = 'Đây là nội dung của một thông báo.';
+        oneSignal_options['promptOptions']['exampleNotificationTitleMobile'] = 'Thông báo ví dụ';
+        oneSignal_options['promptOptions']['exampleNotificationMessageMobile'] = 'Tin nhắn này sẽ hiển thị trên thiết bị của bạn';
+        oneSignal_options['promptOptions']['exampleNotificationCaption'] = '(bạn có thể hủy đăng ký bất cứ lúc nào)';
+        oneSignal_options['promptOptions']['acceptButtonText'] = 'TIẾP TỤC';
+        oneSignal_options['promptOptions']['cancelButtonText'] = 'KHÔNG,CÁM ƠN!';
+        oneSignal_options['promptOptions']['showCredit'] = false;
+        oneSignal_options['notifyButton'] = {};
+        oneSignal_options['notifyButton']['enable'] = true;
+        oneSignal_options['notifyButton']['position'] = 'bottom-right';
+        oneSignal_options['notifyButton']['theme'] = 'default';
+        oneSignal_options['notifyButton']['size'] = 'medium';
+        oneSignal_options['notifyButton']['prenotify'] = true;
+        oneSignal_options['notifyButton']['showCredit'] = false;
+        oneSignal_options['notifyButton']['text'] = {};
+        oneSignal_options['notifyButton']['text']['message.prenotify'] = 'Nhấp để đăng ký nhận thông báo';
+        oneSignal_options['notifyButton']['text']['tip.state.unsubscribed'] = 'Đăng ký nhận thông báo';
+        oneSignal_options['notifyButton']['text']['tip.state.subscribed'] = 'Bạn đã đăng ký thành công';
+        oneSignal_options['notifyButton']['text']['tip.state.blocked'] = 'Bạn đã chặn thông báo';
+        oneSignal_options['notifyButton']['text']['message.action.subscribed'] = 'Cám ơn bạn đã đăng ký. Thach Pham Blog cam kết chỉ gửi các thông báo quan trọng và hữu ích!';
+        oneSignal_options['notifyButton']['text']['message.action.unsubscribed'] = 'Bạn sẽ không nhận được thông báo lần nào nữa.';
+        oneSignal_options['notifyButton']['text']['dialog.main.title'] = 'Quản lý thông báo';
+        oneSignal_options['notifyButton']['text']['dialog.main.button.subscribe'] = 'ĐĂNG KÝ';
+        oneSignal_options['notifyButton']['text']['dialog.main.button.unsubscribe'] = 'HỦY ĐĂNG KÝ';
+        oneSignal_options['notifyButton']['text']['dialog.blocked.title'] = 'Mở khóa thông báo';
+        OneSignal.init(window._oneSignalInitOptions);
+    });
+
+    function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function (event) {
+            OneSignal.push(['registerForPushNotifications']);
+            event.preventDefault();
+        };
+        for (var i = 0; i < oneSignal_elements.length; i++)
+            oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+    }
+
+    if (document.readyState === 'complete') {
+        documentInitOneSignal();
+    }
+    else {
+        window.addEventListener("load", function (event) {
+            documentInitOneSignal();
+        });
+    }</script>
+    <script type="text/javascript">window._wpemojiSettings = {
+        "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/",
+        "ext": ".png",
+        "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/",
+        "svgExt": ".svg",
+        "source": {"concatemoji": "https:\/\/thachpham.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}
+    };
+    !function (a, b, c) {
+        function d(a) {
+            var c, d, e, f, g, h = b.createElement("canvas"), i = h.getContext && h.getContext("2d"), j = String.fromCharCode;
+            if (!i || !i.fillText)return !1;
+            switch (i.textBaseline = "top", i.font = "600 32px Arial", a) {
+                case"flag":
+                    return i.fillText(j(55356, 56806, 55356, 56826), 0, 0), !(h.toDataURL().length < 3e3) && (i.clearRect(0, 0, h.width, h.height), i.fillText(j(55356, 57331, 65039, 8205, 55356, 57096), 0, 0), c = h.toDataURL(), i.clearRect(0, 0, h.width, h.height), i.fillText(j(55356, 57331, 55356, 57096), 0, 0), d = h.toDataURL(), c !== d);
+                case"diversity":
+                    return i.fillText(j(55356, 57221), 0, 0), e = i.getImageData(16, 16, 1, 1).data, f = e[0] + "," + e[1] + "," + e[2] + "," + e[3], i.fillText(j(55356, 57221, 55356, 57343), 0, 0), e = i.getImageData(16, 16, 1, 1).data, g = e[0] + "," + e[1] + "," + e[2] + "," + e[3], f !== g;
+                case"simple":
+                    return i.fillText(j(55357, 56835), 0, 0), 0 !== i.getImageData(16, 16, 1, 1).data[0];
+                case"unicode8":
+                    return i.fillText(j(55356, 57135), 0, 0), 0 !== i.getImageData(16, 16, 1, 1).data[0];
+                case"unicode9":
+                    return i.fillText(j(55358, 56631), 0, 0), 0 !== i.getImageData(16, 16, 1, 1).data[0]
+            }
+            return !1
+        }
+
+        function e(a) {
+            var c = b.createElement("script");
+            c.src = a, c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
+        }
+
+        var f, g, h, i;
+        for (i = Array("simple", "flag", "unicode8", "diversity", "unicode9"), c.supports = {
+            everything: !0,
+            everythingExceptFlag: !0
+        }, h = 0; h < i.length; h++)c.supports[i[h]] = d(i[h]), c.supports.everything = c.supports.everything && c.supports[i[h]], "flag" !== i[h] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[i[h]]);
+        c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function () {
+            c.DOMReady = !0
+        }, c.supports.everything || (g = function () {
+            c.readyCallback()
+        }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function () {
+            "complete" === b.readyState && c.readyCallback()
+        })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji)))
+    }(window, document, window._wpemojiSettings);</script>
+    <style type="text/css">img.wp-smiley, img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 .07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+    }</style>
+    <link rel='stylesheet' id='orange-themes-fonts-css'
+          href='//fonts.googleapis.com/css?family=Material+Icons&#038;subset=latin' type='text/css' media='all'/>
+    <!--[if lte IE 8]>
+    <link rel='stylesheet' id='ie-only-styles-css'
+          href='https://thachpham.com/wp-content/themes/composs/css/ie-ancient.css?ver=4.6.1' type='text/css'
+          media='all'/> <![endif]-->
+    <link rel='stylesheet' id='dynamic-css-css'
+          href='https://thachpham.com/wp-admin/admin-ajax.php?action=orange_themes_dynamic_css&#038;ver=4.6.1'
+          type='text/css' media='all'/>
+    <script type="text/javascript">(function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', '__gaTracker');
+
+    __gaTracker('create', 'UA-33753158-1', 'auto', {'allowLinker': true});
+    __gaTracker('set', 'forceSSL', true);
+    __gaTracker('require', 'displayfeatures');
+    __gaTracker('send', 'pageview');</script>
+    <script type='text/javascript'>/*  */
+    var ot = {
+        "composs()->theme_name": "composs",
+        "composs()->theme_full_name": "Composs",
+        "adminUrl": "https:\/\/thachpham.com\/wp-admin\/admin-ajax.php",
+        "security": "8fd007a705",
+        "gallery_id": "",
+        "galleryCat": "",
+        "imageUrl": "https:\/\/thachpham.com\/wp-content\/themes\/composs\/images\/",
+        "cssUrl": "https:\/\/thachpham.com\/wp-content\/themes\/composs\/css\/",
+        "get_site_url": "https:\/\/thachpham.com",
+        "themeUrl": "https:\/\/thachpham.com\/wp-content\/themes\/composs"
+    };
+    /*  */</script>
+    <script type='text/javascript' src='https://thachpham.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+    <script type='text/javascript'
+            src='https://thachpham.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <script type='text/javascript'
+            src='https://thachpham.com/wp-admin/admin-ajax.php?action=orange_themes_dynamic_js&#038;ver=1'></script>
+    <script type='text/javascript' data-cfasync="false" id="omapi-script"
+            src='//a.optnmnstr.com/app/js/api.min.js?ver=1.1.5.8'></script>
+    <link rel='https://api.w.org/' href='https://thachpham.com/wp-json/'/>
+    <meta name="generator" content="WordPress 4.6.1"/>
+    <link rel='shortlink' href='https://thachpham.com/'/>
+    <link rel="alternate" type="application/json+oembed"
+          href="https://thachpham.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthachpham.com%2F"/>
+    <link rel="alternate" type="text/xml+oembed"
+          href="https://thachpham.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthachpham.com%2F&#038;format=xml"/>
+    <script type="text/javascript">window._zem_rp_post_id = '4';
+    window._zem_rp_thumbnails = false;
+    window._zem_rp_post_title = 'Homepage';
+    window._zem_rp_post_tags = [];
+    window._zem_rp_static_base_url = 'https://content.zemanta.com/static/';
+    window._zem_rp_wp_ajax_url = 'https://thachpham.com/wp-admin/admin-ajax.php';
+    window._zem_rp_plugin_version = '1.13';
+    window._zem_rp_num_rel_posts = '6';</script>
+    <style type="text/css">.related_post_title {
+    }
+
+    ul.related_post {
+    }
+
+    ul.related_post li {
+    }
+
+    ul.related_post li a {
+    }
+
+    ul.related_post li img {
+    }</style>
+    <style type='text/css'>img#wpstats {
+        display: none
+    }</style>
+    <script type="text/javascript">var essb_settings = {
+        "ajax_url": "https:\/\/thachpham.com\/wp-admin\/admin-ajax.php",
+        "essb3_nonce": "1515fa6772",
+        "essb3_plugin_url": "https:\/\/thachpham.com\/wp-content\/plugins\/easy-social-share-buttons3",
+        "essb3_facebook_total": true,
+        "essb3_admin_ajax": true,
+        "essb3_internal_counter": false,
+        "essb3_stats": false,
+        "essb3_ga": true,
+        "essb3_ga_mode": "extended",
+        "essb3_counter_button_min": 0,
+        "essb3_counter_total_min": 0,
+        "blog_url": "https:\/\/thachpham.com\/",
+        "ajax_type": "light",
+        "essb3_postfloat_stay": false,
+        "essb3_no_counter_mailprint": false,
+        "essb3_single_ajax": false,
+        "twitter_counter": "self",
+        "post_id": 4
+    };</script>
+    <style type="text/css" id="syntaxhighlighteranchor"></style>
+    <meta property="fb:pages" content="158052851004284"/>
+    <script>!function (f, b, e, v, n, t, s) {
+        if (f.fbq)return;
+        n = f.fbq = function () {
+            n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq)f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '1796331777265440');
+    fbq('track', "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=1796331777265440&ev=PageView&noscript=1"/></noscript>
+</head>
+<body class="home page page-id-4 page-template page-template-template-homepage page-template-template-homepage-php">
+<div class="boxed">
+    <div class="header">
+        <div class="wrapper">
+            <nav class="header-top">
+                <div class="header-top-socials"><a href="https://www.facebook.com/thachphamdotcom"
+                                                   class="ot-color-hover-facebook" target="_blank"
+                                                   data-wpel-link="external"
+                                                   rel="nofollow external noopener noreferrer"><i
+                        class="fa fa-facebook"></i></a></div>
+                <ul class="load-responsive" rel="Top Menu">
+                    <li id="menu-item-22513"
+                        class="normal-drop   no-description menu-item menu-item-type-post_type menu-item-object-page"><a
+                            href="https://thachpham.com/about" data-wpel-link="internal">Giới thiệu</a></li>
+                    <li id="menu-item-22509"
+                        class="normal-drop   no-description menu-item menu-item-type-post_type menu-item-object-page"><a
+                            href="https://thachpham.com/about/ban-quyen" data-wpel-link="internal">Bản quyền</a></li>
+                    <li id="menu-item-26533"
+                        class="normal-drop   no-description menu-item menu-item-type-custom menu-item-object-custom"><a
+                            href="https://thachpham.com/danh-sach-serie" data-wpel-link="internal">Serie bài viết</a>
+                    </li>
+                    <li id="menu-item-22511"
+                        class="normal-drop   no-description menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children ot-dropdown">
+                        <a href="https://thachpham.com/dich-vu" data-wpel-link="internal"><span>Dịch vụ</span></a> <span
+                            class="sub_menu_toggle"></span>
+                        <ul class="sub-menu">
+                            <li id="menu-item-22512"
+                                class="normal-drop   no-description menu-item menu-item-type-post_type menu-item-object-page">
+                                <a href="https://thachpham.com/dich-vu-cai-dat-hoan-blog-wordpress"
+                                   data-wpel-link="internal">Cài website WordPress</a></li>
+                            <li id="menu-item-26455"
+                                class="normal-drop   no-description menu-item menu-item-type-custom menu-item-object-custom">
+                                <a href="https://thachpham.com/dich-vu-thiet-ke-website-wordpress"
+                                   data-wpel-link="internal">Thiết kế website WordPress</a></li>
+                            <li id="menu-item-23053"
+                                class="normal-drop   no-description menu-item menu-item-type-custom menu-item-object-custom">
+                                <a title="Cài đặt webserver cho WordPress miễn phí"
+                                   href="https://thachpham.com/cai-dat-may-chu-web-cho-wordpress-mien-phi"
+                                   data-wpel-link="internal">Cài máy chủ web cho WordPress</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-22514"
+                        class="normal-drop   no-description menu-item menu-item-type-post_type menu-item-object-page"><a
+                            href="https://thachpham.com/hop-tac" data-wpel-link="internal">Hợp tác</a></li>
+                    <li id="menu-item-26222"
+                        class="normal-drop   no-description menu-item menu-item-type-custom menu-item-object-custom"><a
+                            title="Nơi bạn đặt câu hỏi về các chủ đề liên quan tới nội dung trên blog"
+                            href="http://hoidap.thachpham.com" data-wpel-link="external" target="_blank"
+                            rel="nofollow external noopener noreferrer">Hỏi &#8211; Đáp</a></li>
+                    <li id="menu-item-26805"
+                        class="normal-drop   no-description menu-item menu-item-type-post_type menu-item-object-page"><a
+                            href="https://thachpham.com/slack" data-wpel-link="internal">Slack</a></li>
+                    <li id="menu-item-22516"
+                        class="normal-drop   no-description menu-item menu-item-type-post_type menu-item-object-page"><a
+                            href="https://thachpham.com/lien-he" data-wpel-link="internal">Liên hệ</a></li>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <div class="header-content-logo"><a href="https://thachpham.com/" data-wpel-link="internal"> <img
+                        src="https://thachpham.com/wp-content/uploads/2015/01/tplogo2014.png" alt="Thach Pham"/> </a>
+                </div>
+                <div class="header-content-o">
+                    <ins data-revive-zoneid="2" data-revive-id="da97709b1b4fba76e698519e546eebbd"></ins>
+                    <script async src="//thachpham.club/www/delivery/asyncjs.php"></script>
+                </div>
+            </div>
+            <div class="main-menu-placeholder wrapper">
+                <nav id="main-menu">
+                    <ul class="" id="menu-main-menu-2" rel="Main menu">
+                        <li id="menu-item-26223"
+                            class="normal-drop menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children ot-dropdown">
+                            <a title="Hướng dẫn sử dụng WordPress toàn tập"
+                               href="https://thachpham.com/category/wordpress"
+                               data-wpel-link="internal"><span>WordPress</span></a> <span
+                                class="sub_menu_toggle"></span>
+                            <ul class="sub-menu">
+                                <li id="menu-item-26224"
+                                    class="normal-drop menu-item menu-item-type-taxonomy menu-item-object-category"><a
+                                        title="Thủ thuật cho WordPress"
+                                        href="https://thachpham.com/category/wordpress/wordpress-tutorials"
+                                        data-wpel-link="internal">Hướng dẫn WordPress</a></li>
+                                <li id="menu-item-26225"
+                                    class="normal-drop   no-description menu-item menu-item-type-taxonomy menu-item-object-category">
+                                    <a title="Các theme đẹp và tốt cho WordPress"
+                                       href="https://thachpham.com/category/wordpress/themes-wordpress"
+                                       data-wpel-link="internal">Themes WordPress</a></li>
+                                <li id="menu-item-26226"
+                                    class="normal-drop   no-description menu-item menu-item-type-taxonomy menu-item-object-category">
+                                    <a title="Hướng dẫn lập trình cho WordPress"
+                                       href="https://thachpham.com/category/wordpress/wordpress-development"
+                                       data-wpel-link="internal">WordPress Development</a></li>
+                                <li id="menu-item-26227"
+                                    class="normal-drop menu-item menu-item-type-taxonomy menu-item-object-category"><a
+                                        title="Các plugin hay cho WordPress"
+                                        href="https://thachpham.com/category/wordpress/wp-plugin"
+                                        data-wpel-link="internal">WordPress Plugin</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-26228"
+                            class="normal-drop   no-description menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children ot-dropdown">
+                            <a title="Các bài viết tổng hợp về lập trình website"
+                               href="https://thachpham.com/category/web-development" data-wpel-link="internal"><span>Web Development</span></a>
+                            <span class="sub_menu_toggle"></span>
+                            <ul class="sub-menu">
+                                <li id="menu-item-26229"
+                                    class="normal-drop menu-item menu-item-type-taxonomy menu-item-object-category"><a
+                                        title="Hướng dẫn và thủ thuật HTML/CSS"
+                                        href="https://thachpham.com/category/web-development/html-css"
+                                        data-wpel-link="internal">HTML/CSS</a></li>
+                                <li id="menu-item-26230"
+                                    class="normal-drop   no-description menu-item menu-item-type-taxonomy menu-item-object-category">
+                                    <a title="Hướng dẫn và thủ thuật Javascript"
+                                       href="https://thachpham.com/category/web-development/javascript"
+                                       data-wpel-link="internal">Javascript</a></li>
+                                <li id="menu-item-26231"
+                                    class="normal-drop   no-description menu-item menu-item-type-taxonomy menu-item-object-category">
+                                    <a title="Hướng dẫn và thủ thuật với PHP"
+                                       href="https://thachpham.com/category/web-development/php"
+                                       data-wpel-link="internal">PHP</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-26232"
+                            class="normal-drop   no-description menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children ot-dropdown">
+                            <a title="Các tài nguyên quan trọng cần biết"
+                               href="https://thachpham.com/category/tai-nguyen" data-wpel-link="internal"><span>Tài nguyên</span></a>
+                            <span class="sub_menu_toggle"></span>
+                            <ul class="sub-menu">
+                                <li id="menu-item-26233"
+                                    class="normal-drop   no-description menu-item menu-item-type-taxonomy menu-item-object-category">
+                                    <a title="Những công cụ hay" href="https://thachpham.com/category/tools"
+                                       data-wpel-link="internal">Công cụ</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-26234"
+                            class="normal-drop   no-description menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children ot-dropdown">
+                            <a title="Các bài hướng dẫn webserver trên Linux cho VPS/Máy chủ riêng"
+                               href="https://thachpham.com/category/linux-webserver" data-wpel-link="internal"><span>Linux Webserver</span></a>
+                            <span class="sub_menu_toggle"></span>
+                            <ul class="sub-menu">
+                                <li id="menu-item-26242"
+                                    class="normal-drop   no-description menu-item menu-item-type-taxonomy menu-item-object-category">
+                                    <a title="Các hướng dẫn liên quan đến Apache Webserver"
+                                       href="https://thachpham.com/category/linux-webserver/apache"
+                                       data-wpel-link="internal">Apache</a></li>
+                                <li id="menu-item-26243"
+                                    class="normal-drop   no-description menu-item menu-item-type-taxonomy menu-item-object-category">
+                                    <a title="Các hướng dẫn liên quan đến NGINX Webserver"
+                                       href="https://thachpham.com/category/linux-webserver/nginx"
+                                       data-wpel-link="internal">NGINX</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-26320"
+                            class="normal-drop menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children ot-dropdown">
+                            <a href="https://thachpham.com/category/hosting-domain" data-wpel-link="internal"><span>Hosting &#8211; Domain</span></a>
+                            <span class="sub_menu_toggle"></span>
+                            <ul class="sub-menu">
+                                <li id="menu-item-26321"
+                                    class="normal-drop menu-item menu-item-type-taxonomy menu-item-object-category"><a
+                                        href="https://thachpham.com/category/hosting-domain/review-hosting"
+                                        data-wpel-link="internal">Review Hosting</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-26322"
+                            class="normal-drop menu-item menu-item-type-taxonomy menu-item-object-category"><a
+                                title="Thủ thuật SEO, hướng dẫn SEO" href="https://thachpham.com/category/seo"
+                                data-wpel-link="internal">SEO</a></li>
+                        <li id="menu-item-26534"
+                            class="has-ot-mega-menu   no-description menu-item menu-item-type-custom menu-item-object-custom">
+                            <a href="#" data-wpel-link="internal"><span>Mua Host toàn tập</span></a>
+                            <ul class="sub-menu ot-mega-menu">
+                                <li class="lets-do-4">
+                                    <div class="widget-split item">
+                                        <div class="widget-1 first widget WP_Editor_Widget"><h3>Cẩm nang mua VPS</h3>
+                                            <p>VPS là một dạng máy chủ ảo riêng, thích hợp với các website vừa và có
+                                                nhiều lượt truy cập. Hãy tham khảo cẩm nang mua VPS tại thachpham.com
+                                                nhé.</p>
+                                            <ul>
+                                                <li><a href="http://thachpham.com/hosting-domain/cam-nang-thue-vps.html"
+                                                       data-wpel-link="external" target="_blank"
+                                                       rel="nofollow external noopener noreferrer">Cẩm nang mua VPS toàn
+                                                    tập</a></li>
+                                                <li><a href="http://thachpham.com/vps" data-wpel-link="external"
+                                                       target="_blank" rel="nofollow external noopener noreferrer">Các
+                                                    nhà cung cấp VPS tốt nhất</a></li>
+                                                <li>
+                                                    <a href="http://thachpham.com/linux-webserver/huong-dan-vestacp-lam-hosting-server.html"
+                                                       data-wpel-link="external" target="_blank"
+                                                       rel="nofollow external noopener noreferrer">Cài đặt Hosting
+                                                        Server lên VPS với VestaCP</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="widget-split item">
+                                        <div class="widget-1 first widget WP_Editor_Widget"><h3>Cẩm nang Shared
+                                            Host</h3>
+                                            <p>Shared Host là dịch vụ hosting thông thường, thích hợp với những website
+                                                nhỏ hoặc người mới sử dụng website.</p>
+                                            <ul>
+                                                <li>
+                                                    <a href="http://thachpham.com/hosting-domain/cam-nang-thue-host-cho-wordpress.html"
+                                                       data-wpel-link="external" target="_blank"
+                                                       rel="nofollow external noopener noreferrer">Cẩm nang thuê host
+                                                        toàn tập</a></li>
+                                                <li>
+                                                    <a href="http://thachpham.com/hosting-domain/shared-hosting-tot-nhat-cho-wordpress.html"
+                                                       data-wpel-link="external" target="_blank"
+                                                       rel="nofollow external noopener noreferrer">Các nhà cung cấp
+                                                        Shared Host tốt nhất</a></li>
+                                                <li><a href="http://thachpham.com/series/su-dung-host-cpanel"
+                                                       data-wpel-link="external" target="_blank"
+                                                       rel="nofollow external noopener noreferrer">Hướng dẫn sử dụng
+                                                    host cPanel</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="widget-split item">
+                                        <div class="widget-1 first widget WP_Editor_Widget"><h3>SSD VPS tại AZDIGI</h3>
+                                            <p><strong>AZDIGI</strong> là một công ty do Thạch Phạm thành lập cung cấp
+                                                dịch vụ SSD VPS tốc độ cao do sử dụng hoàn toàn ổ cứng là SSD với cấu
+                                                hình RAID-10. Chỉ với 170.000 đồng/tháng bạn đã có một VPS với 2GB RAM
+                                                và 2 CPU.</p>
+                                            <p></p>
+                                            <p><strong><a
+                                                    href="http://thachpham.com/chuyen-ngoai-le/gioi-thieu-azdigi-cong-ty-cua-thachpham.html"
+                                                    data-wpel-link="external" target="_blank"
+                                                    rel="nofollow external noopener noreferrer">Tìm hiểu thêm về
+                                                AZDIGI</a></strong></p></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form action="https://thachpham.com/" method="get"><input type="text" value="" placeholder="Search"
+                                                                              name="s"/>
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="wrapper">
+            <div class="paragraph-row content-wrapper main-content">
+                <div class="composs-main-content composs-main-content-s-1">
+                    <div class="theiaStickySidebar">
+                        <div class="column12">
+                            <div class="theiaStickySidebar">
+                                <div class="composs-panel">
+                                    <div class="composs-panel-title composs-panel-title-tabbed"><strong class="active">Linux
+                                        Webserver</strong> <strong>Web Development</strong> <strong>Wordpress</strong>
+                                    </div>
+                                    <div class="composs-panel-inner">
+                                        <div class="composs-panel-tab active">
+                                            <div class="composs-article-split-block">
+                                                <div class="item-large">
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/linux-webserver/easyengine-tao-chung-chi-ssl-mien-phi-voi-lets-encrypt.html"
+                                                                data-wpel-link="internal"> <img width="375" height="262"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2015/04/easyengine-logo-375x262_c.png"
+                                                                                                alt="[EasyEngine] Tạo chứng chỉ SSL miễn phí với Let&#8217;s Encrypt"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2015/04/easyengine-logo-750x524_c.png"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2015/04/easyengine-logo-750x524_c.png"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/linux-webserver/easyengine-tao-chung-chi-ssl-mien-phi-voi-lets-encrypt.html"
+                                                                data-wpel-link="internal"> [EasyEngine] Tạo chứng chỉ
+                                                            SSL miễn phí với Let&#8217;s Encrypt </a></h2> <span
+                                                                class="item-meta"> <span class="item-meta-item"><i
+                                                                class="material-icons">access_time</i>24/09/2016</span> <a
+                                                                href="https://thachpham.com/linux-webserver/easyengine-tao-chung-chi-ssl-mien-phi-voi-lets-encrypt.html#comments"
+                                                                class="item-meta-item" data-wpel-link="internal"> <i
+                                                                class="material-icons">chat_bubble_outline</i> 30 </a> </span>
+                                                            <p>Hướng dẫn tạo chứng chỉ SSL miễn phí cho website sử dụng
+                                                                EasyEngine để hỗ trợ giao thức https giúp bảo mật và
+                                                                thân thiện với SEO hơn.</p></div>
+                                                    </div>
+                                                </div>
+                                                <div class="item-small">
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/linux-webserver/gioi-thieu-dich-vu-vps-tai-azdigi.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2016/08/azdigi-vps-features-90x63_c.png"
+                                                                                                alt="Giới thiệu dịch vụ VPS tại AZDIGI"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2016/08/azdigi-vps-features-180x126_c.png"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2016/08/azdigi-vps-features-180x126_c.png"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/linux-webserver/gioi-thieu-dich-vu-vps-tai-azdigi.html"
+                                                                data-wpel-link="internal"> Giới thiệu dịch vụ VPS tại
+                                                            AZDIGI </a></h2> <span class="item-meta"> <span
+                                                                class="item-meta-item"><i class="material-icons">access_time</i>29/08/2016</span> </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/linux-webserver/vestacp-11-cai-net2ftp-de-thay-file-manager.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2016/06/vestacp-90x63_c.png"
+                                                                                                alt="[VestaCP &#8211; 11] Cài Net2FTP để thay thế File Manager"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2016/06/vestacp-180x126_c.png"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2016/06/vestacp-180x126_c.png"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/linux-webserver/vestacp-11-cai-net2ftp-de-thay-file-manager.html"
+                                                                data-wpel-link="internal"> [VestaCP &#8211; 11] Cài
+                                                            Net2FTP để thay thế File Manager </a></h2> <span
+                                                                class="item-meta"> <span class="item-meta-item"><i
+                                                                class="material-icons">access_time</i>07/07/2016</span> </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/linux-webserver/vestacp-10-cai-dat-memcahed-va-zend-opcache.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2016/06/vestacp-90x63_c.png"
+                                                                                                alt="[VestaCP &#8211; 10] Cài đặt thêm Memcahed và Zend Opcache"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2016/06/vestacp-180x126_c.png"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2016/06/vestacp-180x126_c.png"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/linux-webserver/vestacp-10-cai-dat-memcahed-va-zend-opcache.html"
+                                                                data-wpel-link="internal"> [VestaCP &#8211; 10] Cài đặt
+                                                            thêm Memcahed và Zend Opcache </a></h2> <span
+                                                                class="item-meta"> <span class="item-meta-item"><i
+                                                                class="material-icons">access_time</i>07/07/2016</span> </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/linux-webserver/huong-dan-vestacp-lam-hosting-server.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2016/06/vestacp-90x63_c.png"
+                                                                                                alt="Cài server hosting lên máy chủ Linux với VestaCP &#8211; Tổng quan"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2016/06/vestacp-180x126_c.png"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2016/06/vestacp-180x126_c.png"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/linux-webserver/huong-dan-vestacp-lam-hosting-server.html"
+                                                                data-wpel-link="internal"> Cài server hosting lên máy
+                                                            chủ Linux với VestaCP &#8211; Tổng quan </a></h2> <span
+                                                                class="item-meta"> <span class="item-meta-item"><i
+                                                                class="material-icons">access_time</i>01/07/2016</span> </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/linux-webserver/vestacp-9-cai-dat-email-server-de-nhan-va-gui-email.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2016/06/vestacp-90x63_c.png"
+                                                                                                alt="[VestaCP &#8211; 9] Cài đặt Email Server để nhận và gửi email"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2016/06/vestacp-180x126_c.png"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2016/06/vestacp-180x126_c.png"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/linux-webserver/vestacp-9-cai-dat-email-server-de-nhan-va-gui-email.html"
+                                                                data-wpel-link="internal"> [VestaCP &#8211; 9] Cài đặt
+                                                            Email Server để nhận và gửi email </a></h2> <span
+                                                                class="item-meta"> <span class="item-meta-item"><i
+                                                                class="material-icons">access_time</i>01/07/2016</span> </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="composs-panel-tab">
+                                            <div class="composs-article-split-block">
+                                                <div class="item-large">
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/web-development/blisk-trinh-duyet-kiem-tra-responsive.html"
+                                                                data-wpel-link="internal"> <img width="375" height="262"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2016/07/Blisk-logo-text-headline-1408-1408-dark-375x262_c.jpg"
+                                                                                                alt="Blisk &#8211; Trình duyệt kiểm tra Responsive chính xác nhất"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2016/07/Blisk-logo-text-headline-1408-1408-dark-750x524_c.jpg"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2016/07/Blisk-logo-text-headline-1408-1408-dark-750x524_c.jpg"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/web-development/blisk-trinh-duyet-kiem-tra-responsive.html"
+                                                                data-wpel-link="internal"> Blisk &#8211; Trình duyệt
+                                                            kiểm tra Responsive chính xác nhất </a></h2> <span
+                                                                class="item-meta"> <span class="item-meta-item"><i
+                                                                class="material-icons">access_time</i>07/07/2016</span> <a
+                                                                href="https://thachpham.com/web-development/blisk-trinh-duyet-kiem-tra-responsive.html#comments"
+                                                                class="item-meta-item" data-wpel-link="internal"> <i
+                                                                class="material-icons">chat_bubble_outline</i> 15 </a> </span>
+                                                            <p>Blisk là trình duyệt tích hợp sẵn công cụ kiểm tra tính
+                                                                Responsive của giao diện, đảm bảo website luôn được hiển
+                                                                thị tốt trên mọi thiết bị.</p></div>
+                                                    </div>
+                                                </div>
+                                                <div class="item-small">
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/web-development/html-css/huong-dan-css3-flexbox-toan-tap.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2016/06/flex_terms-90x63_c.jpg"
+                                                                                                alt="Dàn trang với CSS Flexbox toàn tập"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2016/06/flex_terms-180x126_c.jpg"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2016/06/flex_terms-180x126_c.jpg"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/web-development/html-css/huong-dan-css3-flexbox-toan-tap.html"
+                                                                data-wpel-link="internal"> Dàn trang với CSS Flexbox
+                                                            toàn tập </a></h2> <span class="item-meta"> <span
+                                                                class="item-meta-item"><i class="material-icons">access_time</i>22/06/2016</span> </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/tools/tao-localhost-chuyen-nghiep-voi-ampps.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2015/11/ampps-dashboard-90x63_c.jpg"
+                                                                                                alt="Tạo localhost chuyên nghiệp với Ampps"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2015/11/ampps-dashboard-180x126_c.jpg"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2015/11/ampps-dashboard-180x126_c.jpg"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/tools/tao-localhost-chuyen-nghiep-voi-ampps.html"
+                                                                data-wpel-link="internal"> Tạo localhost chuyên nghiệp
+                                                            với Ampps </a></h2> <span class="item-meta"> <span
+                                                                class="item-meta-item"><i class="material-icons">access_time</i>27/11/2015</span> </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/hosting-domain/cdn-la-gi-va-khi-nao-nen-dung-cdn-cho-website.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2015/11/cdn-map-90x63_c.png"
+                                                                                                alt="CDN là gì và khi nào nên dùng CDN cho website"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2015/11/cdn-map-180x126_c.png"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2015/11/cdn-map-180x126_c.png"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/hosting-domain/cdn-la-gi-va-khi-nao-nen-dung-cdn-cho-website.html"
+                                                                data-wpel-link="internal"> CDN là gì và khi nào nên dùng
+                                                            CDN cho website </a></h2> <span class="item-meta"> <span
+                                                                class="item-meta-item"><i class="material-icons">access_time</i>18/11/2015</span> </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/wordpress/wordpress-development/php-co-ban-cac-loai-vong-lap-loop.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2013/05/php_code-90x63_c.jpg"
+                                                                                                alt="[PHP cơ bản] Các loại vòng lặp (Loop)"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2013/05/php_code-180x126_c.jpg"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2013/05/php_code-180x126_c.jpg"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/wordpress/wordpress-development/php-co-ban-cac-loai-vong-lap-loop.html"
+                                                                data-wpel-link="internal"> [PHP cơ bản] Các loại vòng
+                                                            lặp (Loop) </a></h2> <span class="item-meta"> <span
+                                                                class="item-meta-item"><i class="material-icons">access_time</i>24/07/2015</span> </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/wordpress/wordpress-development/php-co-ban-class-va-object-lop-va-doi-tuong.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2013/05/php_code-90x63_c.jpg"
+                                                                                                alt="[PHP cơ bản] Class và Object (Lớp và Đối tượng)"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2013/05/php_code-180x126_c.jpg"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2013/05/php_code-180x126_c.jpg"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/wordpress/wordpress-development/php-co-ban-class-va-object-lop-va-doi-tuong.html"
+                                                                data-wpel-link="internal"> [PHP cơ bản] Class và Object
+                                                            (Lớp và Đối tượng) </a></h2> <span class="item-meta"> <span
+                                                                class="item-meta-item"><i class="material-icons">access_time</i>24/07/2015</span> </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="composs-panel-tab">
+                                            <div class="composs-article-split-block">
+                                                <div class="item-large">
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/wordpress/wordpress-tutorials/hay-tat-xmlrpc-khi-khong-can-su-dung.html"
+                                                                data-wpel-link="internal"> <img width="375" height="262"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2015/04/security-bg-375x262_c.jpg"
+                                                                                                alt="Hãy tắt XML-RPC khi không cần sử dụng"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2015/04/security-bg-750x524_c.jpg"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2015/04/security-bg-750x524_c.jpg"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/wordpress/wordpress-tutorials/hay-tat-xmlrpc-khi-khong-can-su-dung.html"
+                                                                data-wpel-link="internal"> Hãy tắt XML-RPC khi không cần
+                                                            sử dụng </a></h2> <span class="item-meta"> <span
+                                                                class="item-meta-item"><i class="material-icons">access_time</i>18/09/2016</span> <a
+                                                                href="https://thachpham.com/wordpress/wordpress-tutorials/hay-tat-xmlrpc-khi-khong-can-su-dung.html#comments"
+                                                                class="item-meta-item" data-wpel-link="internal"> <i
+                                                                class="material-icons">chat_bubble_outline</i> 18 </a> </span>
+                                                            <p>Hướng dẫn tắt tính năng XML-RPC trên WordPress để hạn chế
+                                                                tấn công Brute Force và tấn công HTTP Flood.</p></div>
+                                                    </div>
+                                                </div>
+                                                <div class="item-small">
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/wordpress/themes-wordpress/20-themes-wordpress-mien-phi-dep-nhat-thang-82016.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2016/09/shopisle-theme-90x63_c.png"
+                                                                                                alt="19 themes WordPress miễn phí đẹp nhất tháng 8 &#8211; 9/2016"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2016/09/shopisle-theme-180x126_c.png"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2016/09/shopisle-theme-180x126_c.png"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/wordpress/themes-wordpress/20-themes-wordpress-mien-phi-dep-nhat-thang-82016.html"
+                                                                data-wpel-link="internal"> 19 themes WordPress miễn phí
+                                                            đẹp nhất tháng 8 &#8211; 9/2016 </a></h2> <span
+                                                                class="item-meta"> <span class="item-meta-item"><i
+                                                                class="material-icons">access_time</i>18/09/2016</span> </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-07.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-90x63_c.png"
+                                                                                                alt="Làm trang shop đơn giản với WordPress – 07"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-180x126_c.png"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-180x126_c.png"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-07.html"
+                                                                data-wpel-link="internal"> Làm trang shop đơn giản với
+                                                            WordPress – 07 </a></h2> <span class="item-meta"> <span
+                                                                class="item-meta-item"><i class="material-icons">access_time</i>04/09/2016</span> </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-06.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-90x63_c.png"
+                                                                                                alt="Làm trang shop đơn giản với WordPress – 06"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-180x126_c.png"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-180x126_c.png"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-06.html"
+                                                                data-wpel-link="internal"> Làm trang shop đơn giản với
+                                                            WordPress – 06 </a></h2> <span class="item-meta"> <span
+                                                                class="item-meta-item"><i class="material-icons">access_time</i>04/09/2016</span> </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-05.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-90x63_c.png"
+                                                                                                alt="Làm trang shop đơn giản với WordPress – 05"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-180x126_c.png"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-180x126_c.png"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-05.html"
+                                                                data-wpel-link="internal"> Làm trang shop đơn giản với
+                                                            WordPress – 05 </a></h2> <span class="item-meta"> <span
+                                                                class="item-meta-item"><i class="material-icons">access_time</i>31/08/2016</span> </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="item-header"><a
+                                                                href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-04.html"
+                                                                data-wpel-link="internal"> <img width="90" height="63"
+                                                                                                src="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-90x63_c.png"
+                                                                                                alt="Làm trang shop đơn giản với WordPress – 04"
+                                                                                                srcset="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-180x126_c.png"
+                                                                                                data-ot-retina="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-180x126_c.png"/>
+                                                        </a></div>
+                                                        <div class="item-content"><h2><a
+                                                                href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-04.html"
+                                                                data-wpel-link="internal"> Làm trang shop đơn giản với
+                                                            WordPress – 04 </a></h2> <span class="item-meta"> <span
+                                                                class="item-meta-item"><i class="material-icons">access_time</i>29/08/2016</span> </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="composs-panel">
+                                    <div class="composs-panel-title"><strong>Bài viết mới</strong></div>
+                                    <div class="composs-panel-inner">
+                                        <div class="composs-blog-list lets-do-1">
+                                            <div class="post-27006 post type-post status-publish format-standard has-post-thumbnail hentry category-linux-webserver category-nginx tag-easyengine tag-lets-encrypt tag-ssl series-easyengine item"
+                                                 id="post-27006">
+                                                <div class="item-header"><a
+                                                        href="https://thachpham.com/linux-webserver/easyengine-tao-chung-chi-ssl-mien-phi-voi-lets-encrypt.html"
+                                                        data-wpel-link="internal"> <img width="250" height="175"
+                                                                                        src="https://thachpham.com/wp-content/uploads/2015/04/easyengine-logo-250x175_c.png"
+                                                                                        alt="[EasyEngine] Tạo chứng chỉ SSL miễn phí với Let&#8217;s Encrypt"
+                                                                                        srcset="https://thachpham.com/wp-content/uploads/2015/04/easyengine-logo-500x350_c.png"
+                                                                                        data-ot-retina="https://thachpham.com/wp-content/uploads/2015/04/easyengine-logo-500x350_c.png"/>
+                                                </a></div>
+                                                <div class="item-content"><h2><a
+                                                        href="https://thachpham.com/linux-webserver/easyengine-tao-chung-chi-ssl-mien-phi-voi-lets-encrypt.html"
+                                                        data-wpel-link="internal"> [EasyEngine] Tạo chứng chỉ SSL miễn
+                                                    phí với Let&#8217;s Encrypt </a></h2> <span class="item-meta"> <span
+                                                        class="item-meta-item"><i class="material-icons">access_time</i>24/09/2016</span> <a
+                                                        href="https://thachpham.com/linux-webserver/easyengine-tao-chung-chi-ssl-mien-phi-voi-lets-encrypt.html#comments"
+                                                        class="item-meta-item" data-wpel-link="internal"> <i
+                                                        class="material-icons">chat_bubble_outline</i> 30 </a> </span>
+                                                    <p>Hướng dẫn tạo chứng chỉ SSL miễn phí cho website sử dụng
+                                                        EasyEngine để hỗ trợ giao thức https giúp bảo mật và thân thiện
+                                                        với SEO hơn.</p></div>
+                                            </div>
+                                            <div class="post-26975 post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress-tutorials tag-bao-mat tag-bao-mat-wordpress item"
+                                                 id="post-26975">
+                                                <div class="item-header"><a
+                                                        href="https://thachpham.com/wordpress/wordpress-tutorials/hay-tat-xmlrpc-khi-khong-can-su-dung.html"
+                                                        data-wpel-link="internal"> <img width="250" height="175"
+                                                                                        src="https://thachpham.com/wp-content/uploads/2015/04/security-bg-250x175_c.jpg"
+                                                                                        alt="Hãy tắt XML-RPC khi không cần sử dụng"
+                                                                                        srcset="https://thachpham.com/wp-content/uploads/2015/04/security-bg-500x350_c.jpg"
+                                                                                        data-ot-retina="https://thachpham.com/wp-content/uploads/2015/04/security-bg-500x350_c.jpg"/>
+                                                </a></div>
+                                                <div class="item-content"><h2><a
+                                                        href="https://thachpham.com/wordpress/wordpress-tutorials/hay-tat-xmlrpc-khi-khong-can-su-dung.html"
+                                                        data-wpel-link="internal"> Hãy tắt XML-RPC khi không cần sử
+                                                    dụng </a></h2> <span class="item-meta"> <span
+                                                        class="item-meta-item"><i class="material-icons">access_time</i>18/09/2016</span> <a
+                                                        href="https://thachpham.com/wordpress/wordpress-tutorials/hay-tat-xmlrpc-khi-khong-can-su-dung.html#comments"
+                                                        class="item-meta-item" data-wpel-link="internal"> <i
+                                                        class="material-icons">chat_bubble_outline</i> 18 </a> </span>
+                                                    <p>Hướng dẫn tắt tính năng XML-RPC trên WordPress để hạn chế tấn
+                                                        công Brute Force và tấn công HTTP Flood.</p></div>
+                                            </div>
+                                            <div class="post-26953 post type-post status-publish format-standard has-post-thumbnail hentry category-themes-wordpress tag-theme-mien-phi item"
+                                                 id="post-26953">
+                                                <div class="item-header"><a
+                                                        href="https://thachpham.com/wordpress/themes-wordpress/20-themes-wordpress-mien-phi-dep-nhat-thang-82016.html"
+                                                        data-wpel-link="internal"> <img width="250" height="175"
+                                                                                        src="https://thachpham.com/wp-content/uploads/2016/09/shopisle-theme-250x175_c.png"
+                                                                                        alt="19 themes WordPress miễn phí đẹp nhất tháng 8 &#8211; 9/2016"
+                                                                                        srcset="https://thachpham.com/wp-content/uploads/2016/09/shopisle-theme-500x350_c.png"
+                                                                                        data-ot-retina="https://thachpham.com/wp-content/uploads/2016/09/shopisle-theme-500x350_c.png"/>
+                                                </a></div>
+                                                <div class="item-content"><h2><a
+                                                        href="https://thachpham.com/wordpress/themes-wordpress/20-themes-wordpress-mien-phi-dep-nhat-thang-82016.html"
+                                                        data-wpel-link="internal"> 19 themes WordPress miễn phí đẹp nhất
+                                                    tháng 8 &#8211; 9/2016 </a></h2> <span class="item-meta"> <span
+                                                        class="item-meta-item"><i class="material-icons">access_time</i>18/09/2016</span> <a
+                                                        href="https://thachpham.com/wordpress/themes-wordpress/20-themes-wordpress-mien-phi-dep-nhat-thang-82016.html#comments"
+                                                        class="item-meta-item" data-wpel-link="internal"> <i
+                                                        class="material-icons">chat_bubble_outline</i> 18 </a> </span>
+                                                    <p>Danh sách 19 themes WordPress miễn phí đẹp nhất tháng 8 và
+                                                        9/2016.</p></div>
+                                            </div>
+                                            <div class="post-26890 post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress-tutorials category-wordpress-development tag-custom-post-type tag-shop-don-gian series-shop-don-gian-voi-wordpress item"
+                                                 id="post-26890">
+                                                <div class="item-header"><a
+                                                        href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-07.html"
+                                                        data-wpel-link="internal"> <img width="250" height="175"
+                                                                                        src="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-250x175_c.png"
+                                                                                        alt="Làm trang shop đơn giản với WordPress – 07"
+                                                                                        srcset="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-500x350_c.png"
+                                                                                        data-ot-retina="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-500x350_c.png"/>
+                                                </a></div>
+                                                <div class="item-content"><h2><a
+                                                        href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-07.html"
+                                                        data-wpel-link="internal"> Làm trang shop đơn giản với WordPress
+                                                    – 07 </a></h2> <span class="item-meta"> <span
+                                                        class="item-meta-item"><i class="material-icons">access_time</i>04/09/2016</span> <a
+                                                        href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-07.html#comments"
+                                                        class="item-meta-item" data-wpel-link="internal"> <i
+                                                        class="material-icons">chat_bubble_outline</i> 20 </a> </span>
+                                                    <p>Phần cuối của serie làm shop đơn giản bằng custom post type và
+                                                        custom taxonomy. Trong bài này sẽ hướng dẫn làm một template
+                                                        hiển thị danh sách các sản phẩm ở các trang lưu trữ và trang
+                                                        chủ.</p></div>
+                                            </div>
+                                            <div class="post-26879 post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress-tutorials category-wordpress-development tag-custom-post-type tag-ninja-form tag-shop-don-gian series-shop-don-gian-voi-wordpress item"
+                                                 id="post-26879">
+                                                <div class="item-header"><a
+                                                        href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-06.html"
+                                                        data-wpel-link="internal"> <img width="250" height="175"
+                                                                                        src="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-250x175_c.png"
+                                                                                        alt="Làm trang shop đơn giản với WordPress – 06"
+                                                                                        srcset="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-500x350_c.png"
+                                                                                        data-ot-retina="https://thachpham.com/wp-content/uploads/2016/08/shopdongian-archivesanpham01-500x350_c.png"/>
+                                                </a></div>
+                                                <div class="item-content"><h2><a
+                                                        href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-06.html"
+                                                        data-wpel-link="internal"> Làm trang shop đơn giản với WordPress
+                                                    – 06 </a></h2> <span class="item-meta"> <span
+                                                        class="item-meta-item"><i class="material-icons">access_time</i>04/09/2016</span> <a
+                                                        href="https://thachpham.com/wordpress/wordpress-tutorials/shop-don-gian-06.html#comments"
+                                                        class="item-meta-item" data-wpel-link="internal"> <i
+                                                        class="material-icons">chat_bubble_outline</i> 11 </a> </span>
+                                                    <p>Trong phần này mình sẽ có hướng dẫn làm cái form đặt hàng đơn
+                                                        giản với plugin NinjaForm trong một website bán hàng đơn giản
+                                                        với Custom Post Type.</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="composs-panel-pager"><span class='page-numbers current'>1</span> <a
+                                            class="page-numbers" href="https://thachpham.com/page/2"
+                                            data-wpel-link="internal">2</a> <a class="page-numbers"
+                                                                               href="https://thachpham.com/page/3"
+                                                                               data-wpel-link="internal">3</a> <span
+                                            class="page-numbers dots">&hellip;</span> <a class="page-numbers"
+                                                                                         href="https://thachpham.com/page/193"
+                                                                                         data-wpel-link="internal">193</a>
+                                        <a class="next page-numbers" href="https://thachpham.com/page/2"
+                                           data-wpel-link="internal">Next <i class="fa fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="composs-panel">
+                                    <div class="do-space"><a target="_blank"
+                                                             href="http://thachpham.club/www/delivery/ck.php?oaparams=2__bannerid=11__zoneid=0__log=no__cb=a75df403ae__oadest=http%3A%2F%2Fwww.qhonline.edu.vn%2Fthong-tin%2Fkhoa-hoc-truc-tuyen.html"
+                                                             data-wpel-link="external"
+                                                             rel="nofollow external noopener noreferrer"><img
+                                            width="700" height="104"
+                                            title="Học PHP cơ bản và nâng cao, học PHP Framework với giá tốt nhất."
+                                            alt="Học PHP cơ bản và nâng cao, học PHP Framework với giá tốt nhất."
+                                            src="//thachpham.club/www/images/b8a47e131b4791af14c5762c32fd9270.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <aside id="sidebar" class="isfixedsidebar sidebar-right">
+                    <div class="theiaStickySidebar">
+                        <div class="widget-1 first widget widget_text">
+                            <div class="textwidget">
+                                <ins data-revive-zoneid="7" data-revive-id="da97709b1b4fba76e698519e546eebbd"></ins>
+                                <script async src="//thachpham.club/www/delivery/asyncjs.php"></script>
+                            </div>
+                        </div>
+                        <div class="widget-2 widget WP_Editor_Widget"><h3>Dành cho người mới</h3>
+                            <p><strong>
+                                <ul class="fa-ul">
+                                    <li><i class="fa-li fa fa-wordpress"></i><a
+                                            href="http://thachpham.com/wordpress/wordpress-tutorials/serie-hoc-wordpress-co-ban.html"
+                                            data-wpel-link="external" target="_blank"
+                                            rel="nofollow external noopener noreferrer">Học WordPress cơ bản</a></li>
+                                    <li><i class="fa-li fa fa-wordpress"></i><a
+                                            href="http://thachpham.com/series/hoc-woocommerce" data-wpel-link="external"
+                                            target="_blank" rel="nofollow external noopener noreferrer">Học làm website
+                                        bán hàng</a></li>
+                                    <li><i class="fa-li fa fa-star"></i><a
+                                            href="http://thachpham.com/linux-webserver/hoc-su-dung-vps-linux.html"
+                                            data-wpel-link="external" target="_blank"
+                                            rel="nofollow external noopener noreferrer">Học sử dụng VPS/máy chủ
+                                        Linux</a></li>
+                                    <li><i class="fa-li fa fa-html5"></i><a
+                                            href="http://thachpham.com/series/html-co-ban" data-wpel-link="external"
+                                            target="_blank" rel="nofollow external noopener noreferrer">Học HTML cơ
+                                        bản</a></li>
+                                    <li><i class="fa-li fa fa-css3"></i><a href="http://thachpham.com/series/css-co-ban"
+                                                                           data-wpel-link="external" target="_blank"
+                                                                           rel="nofollow external noopener noreferrer">Học
+                                        CSS cơ bản</a></li>
+                                    <li><i class="fa-li fa fa-gift"></i>(Đối tác) <span style="color: #008000;"><a
+                                            style="color: #008000;"
+                                            href="http://hoclamwebaz.edumall.vn/?utm_source=ThachPham&amp;utm_medium=UNI_COMBO_VIETND.01_Textlink_HuyBQ2_ThachPham_LP01_01&amp;utm_campaign=Combo_VietND.01"
+                                            data-wpel-link="external" target="_blank"
+                                            rel="nofollow external noopener noreferrer">Học làm web bằng Wordpress từ
+                                        A-Z</a></span></li>
+                                </ul>
+                            </strong></p>
+                        </div>
+                        <div class="widget-3 widget widget_text">
+                            <div class="textwidget"><a
+                                    href="http://thachpham.club/www/delivery/ck.php?oaparams=2__bannerid=22__zoneid=0__log=no__cb=ea560f6b61__oadest=http%3A%2F%2Fwordpress.edumall.vn%2F%3Futm_source%3DThachPham%26utm_medium%3DUNI_COMBO_VIETND.01_Banner_HuyBQ2_ThachPham_LP01_01%26utm_campaign%3DCombo_VietND.01"
+                                    onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://thachpham.club/www/delivery/ck.php?oaparams=2__bannerid=22__zoneid=0__log=no__cb=ea560f6b61__oadest=http%3A%2F%2Fwordpress.edumall.vn%2F%3Futm_source%3DThachPham%26utm_medium%3DUNI_COMBO_VIETND.01_Banner_HuyBQ2_ThachPham_LP01_01%26utm_campaign%3DCombo_VietND.01&#039;, &#039;&#039;);"
+                                    target="_blank" data-wpel-link="external"
+                                    rel="nofollow external noopener noreferrer"><img
+                                    src="https://thachpham.club/www/images/1bda153fb54efc212ee7ce630ef24014.gif"
+                                    width="300" height="250" alt="" title="" border="0"></a></div>
+                        </div>
+                        <div class="widget-4 widget widget_text">
+                            <div class="textwidget"><a
+                                    href="http://www.dgm.vn/khoa-hoc-facebook-marketing/?code=ThachPham&amp;utm_source=ThachPham&amp;utm_medium=Banner&amp;utm_campaign=Facebook-300x250"
+                                    onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://www.dgm.vn/khoa-hoc-facebook-marketing/?code=ThachPham&amp;utm_source=ThachPham&amp;utm_medium=Banner&amp;utm_campaign=Facebook-300x250&#039;, &#039;&#039;);"
+                                    target="_blank" data-wpel-link="external"
+                                    rel="nofollow external noopener noreferrer"><img
+                                    src="https://thachpham.club/www/images/78c6270dd97df31ff8083b14ac831c4c.png"
+                                    alt="Khóa học Facebook"></a></div>
+                        </div>
+                        <div class="widget-5 widget widget_text"><h3>Dịch vụ nên dùng</h3>
+                            <div class="textwidget">
+                                <ins data-revive-zoneid="1" data-revive-id="da97709b1b4fba76e698519e546eebbd"></ins>
+                                <script async src="//thachpham.club/www/delivery/asyncjs.php"></script>
+                            </div>
+                        </div>
+                        <div class="widget-6 last widget widget_thachpham_latest_modified"><h3>Mới cập nhật</h3>
+                            <div class="widget-content ot-w-article-list">
+                                <div class="item">
+                                    <div class="item-header"><a
+                                            href="https://thachpham.com/hosting-domain/them-domain-vao-host-cpanel.html"
+                                            data-wpel-link="internal"> <img width="80" height="56"
+                                                                            src="https://thachpham.com/wp-content/uploads/2015/01/cpanel-addon-domain-02-80x56_c.jpg"
+                                                                            alt="Thêm tên miền (addon domain) vào host cPanel"
+                                                                            srcset="https://thachpham.com/wp-content/uploads/2015/01/cpanel-addon-domain-02-160x112_c.jpg"
+                                                                            data-ot-retina="https://thachpham.com/wp-content/uploads/2015/01/cpanel-addon-domain-02-160x112_c.jpg"/>
+                                    </a></div>
+                                    <div class="item-content"><h4><a
+                                            href="https://thachpham.com/hosting-domain/them-domain-vao-host-cpanel.html"
+                                            data-wpel-link="internal">Thêm tên miền (addon domain) vào host cPanel</a>
+                                    </h4> <span class="item-meta"> <span class="item-meta-item"> <i
+                                            class="material-icons">access_time</i>Cập nhật lúc 15/11/2016 </span> </span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item-header"><a
+                                            href="https://thachpham.com/hosting-domain/gioi-thieu-dich-vu-shared-host-tai-azdigi.html"
+                                            data-wpel-link="internal"> <img width="80" height="56"
+                                                                            src="https://thachpham.com/wp-content/uploads/2016/08/azdigi-shared-host-features-80x56_c.png"
+                                                                            alt="Giới thiệu dịch vụ Shared Host tại AZDIGI"
+                                                                            srcset="https://thachpham.com/wp-content/uploads/2016/08/azdigi-shared-host-features-160x112_c.png"
+                                                                            data-ot-retina="https://thachpham.com/wp-content/uploads/2016/08/azdigi-shared-host-features-160x112_c.png"/>
+                                    </a></div>
+                                    <div class="item-content"><h4><a
+                                            href="https://thachpham.com/hosting-domain/gioi-thieu-dich-vu-shared-host-tai-azdigi.html"
+                                            data-wpel-link="internal">Giới thiệu dịch vụ Shared Host tại AZDIGI</a></h4>
+                                        <span class="item-meta"> <span class="item-meta-item"> <i
+                                                class="material-icons">access_time</i>Cập nhật lúc 08/11/2016 </span> </span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item-header"><a
+                                            href="https://thachpham.com/wordpress/wordpress-tutorials/tao-sitemap-submit-len-google.html"
+                                            data-wpel-link="internal"> <img width="80" height="56"
+                                                                            src="https://thachpham.com/wp-content/uploads/2013/09/submit-sitemap-google-7-80x56_c.jpg"
+                                                                            alt="Tạo XML Sitemap và gửi website lên Google"
+                                                                            srcset="https://thachpham.com/wp-content/uploads/2013/09/submit-sitemap-google-7-160x112_c.jpg"
+                                                                            data-ot-retina="https://thachpham.com/wp-content/uploads/2013/09/submit-sitemap-google-7-160x112_c.jpg"/>
+                                    </a></div>
+                                    <div class="item-content"><h4><a
+                                            href="https://thachpham.com/wordpress/wordpress-tutorials/tao-sitemap-submit-len-google.html"
+                                            data-wpel-link="internal">Tạo XML Sitemap và gửi website lên Google</a></h4>
+                                        <span class="item-meta"> <span class="item-meta-item"> <i
+                                                class="material-icons">access_time</i>Cập nhật lúc 08/11/2016 </span> </span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item-header"><a
+                                            href="https://thachpham.com/wordpress/cach-su-dung-mat-cuoi-emoji-o-wordpress-4-2.html"
+                                            data-wpel-link="internal"> <img width="80" height="56"
+                                                                            src="https://thachpham.com/wp-content/uploads/2014/08/wordpress-flat-logo-80x56_c.png"
+                                                                            alt="Cách sử dụng mặt cười Emoji ở WordPress 4.2"
+                                                                            srcset="https://thachpham.com/wp-content/uploads/2014/08/wordpress-flat-logo-160x112_c.png"
+                                                                            data-ot-retina="https://thachpham.com/wp-content/uploads/2014/08/wordpress-flat-logo-160x112_c.png"/>
+                                    </a></div>
+                                    <div class="item-content"><h4><a
+                                            href="https://thachpham.com/wordpress/cach-su-dung-mat-cuoi-emoji-o-wordpress-4-2.html"
+                                            data-wpel-link="internal">Cách sử dụng mặt cười Emoji ở WordPress 4.2</a>
+                                    </h4> <span class="item-meta"> <span class="item-meta-item"> <i
+                                            class="material-icons">access_time</i>Cập nhật lúc 05/11/2016 </span> </span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item-header"><a
+                                            href="https://thachpham.com/wordpress/wordpress-tutorials/huong-dan-tang-toc-wordpress.html"
+                                            data-wpel-link="internal"> <img width="80" height="56"
+                                                                            src="https://thachpham.com/wp-content/uploads/2013/01/tang-toc-80x56_c.png"
+                                                                            alt="Hướng dẫn tăng tốc WordPress từ A đến Z"
+                                                                            srcset="https://thachpham.com/wp-content/uploads/2013/01/tang-toc-160x112_c.png"
+                                                                            data-ot-retina="https://thachpham.com/wp-content/uploads/2013/01/tang-toc-160x112_c.png"/>
+                                    </a></div>
+                                    <div class="item-content"><h4><a
+                                            href="https://thachpham.com/wordpress/wordpress-tutorials/huong-dan-tang-toc-wordpress.html"
+                                            data-wpel-link="internal">Hướng dẫn tăng tốc WordPress từ A đến Z</a></h4>
+                                        <span class="item-meta"> <span class="item-meta-item"> <i
+                                                class="material-icons">access_time</i>Cập nhật lúc 04/11/2016 </span> </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="wrapper">
+            <div class="footer-widgets lets-do-4">
+                <div class="widget-split item">
+                    <div class="widget-1 first widget widget_orange_themes_about"><h3>Giới thiệu</h3>
+                        <div><p>ThachPham.Com là blog cá nhân tập trung vào việc phổ biến kiến thức WordPress nói riêng
+                            và các kiến thức làm website nói chung đến tất cả mọi người.<br/> Phương châm hoạt động của
+                            thachpham.com đó là chia sẻ không giới hạn về những kiến thức bổ ích nhất liên quan đến quản
+                            trị website.</p></div>
+                    </div>
+                </div>
+                <div class="widget-split item">
+                    <div class="widget-1 first widget WP_Editor_Widget"><h3>Tham khảo</h3>
+                        <ul class="fa-ul"></p><p>
+                            <li><i class="fa-li fa fa-star"></i><a
+                                    href="http://thachpham.com/hosting-domain/shared-hosting-tot-nhat-cho-wordpress.html"
+                                    data-wpel-link="external" target="_blank"
+                                    rel="nofollow external noopener noreferrer"><b>Các dịch vụ Shared Host tốt nhất</b></a>
+                            </li>
+                            </p><p>
+                            <li><i class="fa-li fa fa-star"></i><a href="http://thachpham.com/vps"
+                                                                   data-wpel-link="external" target="_blank"
+                                                                   rel="nofollow external noopener noreferrer"><strong>Các
+                                dịch vụ VPS tốt nhất</strong></a></li>
+                            </p><p>
+                            <li><i class="fa-li fa fa-star"></i><a
+                                    href="http://thachpham.com/wordpress/themes-wordpress/10-website-mua-theme-tot-nhat.html"
+                                    data-wpel-link="external" target="_blank"
+                                    rel="nofollow external noopener noreferrer"><b>Nên mua theme WordPress ở
+                                đâu?</b></a></li>
+                            </p><p></ul>
+                    </div>
+                </div>
+                <div class="widget-split item">
+                    <div class="widget-1 first widget WP_Editor_Widget"><h3>Dịch vụ</h3>
+                        <ul class="fa-ul"></p><p>
+                            <li><i class="fa-li fa fa-wrench"></i><a
+                                    href="http://thachpham.com/dich-vu-cai-dat-hoan-blog-wordpress"
+                                    data-wpel-link="external" target="_blank"
+                                    rel="nofollow external noopener noreferrer"><strong>Cài đặt WordPress miễn
+                                phí</strong></a></li>
+                            </p><p>
+                            <li><i class="fa-li fa fa-cubes"></i><a
+                                    href="http://thachpham.com/cai-dat-may-chu-web-cho-wordpress-mien-phi"
+                                    data-wpel-link="external" target="_blank"
+                                    rel="nofollow external noopener noreferrer"><strong>Cài đặt máy chủ</strong></a>
+                            </li>
+                            </p><p>
+                            <li><i class="fa-li fa fa-wordpress"></i><a
+                                    href="http://thachpham.com/dich-vu-thiet-ke-website-wordpress"
+                                    data-wpel-link="external" target="_blank"
+                                    rel="nofollow external noopener noreferrer"><strong>Thiết kế website
+                                WordPress</strong></a></li>
+                            </p><p>
+                            <li><i class="fa-li fa fa-bolt"></i><a
+                                    href="https://azdigi.com/?utm_medium=footer&amp;utm_campaign=AZDIGI-Promotion&amp;utm_source=thachpham.com"
+                                    data-wpel-link="exclude"><strong>VPS SSD tốc độ cao</strong></a></li>
+                            </p><p>
+                            <li><i class="fa-li fa fa-quote-left"></i><a href="http://thachpham.com/lien-he"
+                                                                         data-wpel-link="external" target="_blank"
+                                                                         rel="nofollow external noopener noreferrer"><strong>Tư
+                                vấn miễn phí</strong></a></li>
+                            </p><p></ul>
+                    </div>
+                </div>
+                <div class="widget-split item">
+                    <div class="widget-1 first widget widget_nav_menu"><h3>Liên kết</h3>
+                        <div class="menu-lien-ket-container">
+                            <ul id="menu-lien-ket" class="menu">
+                                <li id="menu-item-17822"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17822"><a
+                                        href="http://ngocchinh.com/"
+                                        onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://ngocchinh.com/&#039;, &#039;Trần Ngọc Chính&#039;);"
+                                        data-wpel-link="external" target="_blank"
+                                        rel="nofollow external noopener noreferrer">Trần Ngọc Chính</a></li>
+                                <li id="menu-item-17824"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17824"><a
+                                        href="http://izwebz.com/"
+                                        onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://izwebz.com/&#039;, &#039;IZWebz&#039;);"
+                                        data-wpel-link="external" target="_blank"
+                                        rel="nofollow external noopener noreferrer">IZWebz</a></li>
+                                <li id="menu-item-17826"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17826"><a
+                                        href="http://vietdesigner.net/"
+                                        onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://vietdesigner.net/&#039;, &#039;Vietdesigner&#039;);"
+                                        data-wpel-link="external" target="_blank"
+                                        rel="nofollow external noopener noreferrer">Vietdesigner</a></li>
+                                <li id="menu-item-17827"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17827"><a
+                                        href="http://kiemtientrenmangaz.com/"
+                                        onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://kiemtientrenmangaz.com/&#039;, &#039;Danny Nguyễn&#039;);"
+                                        data-wpel-link="external" target="_blank"
+                                        rel="nofollow external noopener noreferrer">Danny Nguyễn</a></li>
+                                <li id="menu-item-17828"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17828"><a
+                                        href="http://nganson.com/"
+                                        onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://nganson.com/&#039;, &#039;Ngân Sơn&#039;);"
+                                        data-wpel-link="external" target="_blank"
+                                        rel="nofollow external noopener noreferrer">Ngân Sơn</a></li>
+                                <li id="menu-item-17829"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17829"><a
+                                        href="http://vanmy.net/"
+                                        onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://vanmy.net/&#039;, &#039;Văn Mỹ&#039;);"
+                                        data-wpel-link="external" target="_blank"
+                                        rel="nofollow external noopener noreferrer">Văn Mỹ</a></li>
+                                <li id="menu-item-17831"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17831"><a
+                                        href="http://laptrinh.senviet.org/"
+                                        onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://laptrinh.senviet.org/&#039;, &#039;Lập trình Sen Việt&#039;);"
+                                        data-wpel-link="external" target="_blank"
+                                        rel="nofollow external noopener noreferrer">Lập trình Sen Việt</a></li>
+                                <li id="menu-item-19839"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19839"><a
+                                        href="http://trungduc.net"
+                                        onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://trungduc.net&#039;, &#039;Trung Đức&#039;);"
+                                        title="Internet Marketing Expert" data-wpel-link="external" target="_blank"
+                                        rel="nofollow external noopener noreferrer">Trung Đức</a></li>
+                                <li id="menu-item-23140"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23140"><a
+                                        href="http://vinacode.net/"
+                                        onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://vinacode.net/&#039;, &#039;Vinacode&#039;);"
+                                        title="Lập trình &#038; Cuộc sống" data-wpel-link="external" target="_blank"
+                                        rel="nofollow external noopener noreferrer">Vinacode</a></li>
+                                <li id="menu-item-26099"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26099"><a
+                                        href="http://giupbanlamdep.com"
+                                        onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://giupbanlamdep.com&#039;, &#039;Giúp Bạn Làm Đẹp&#039;);"
+                                        data-wpel-link="exclude">Giúp Bạn Làm Đẹp</a></li>
+                                <li id="menu-item-26133"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26133"><a
+                                        href="http://www.laivanduc.com/"
+                                        onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://www.laivanduc.com/&#039;, &#039;Lại Văn Đức&#039;);"
+                                        data-wpel-link="external" target="_blank"
+                                        rel="nofollow external noopener noreferrer">Lại Văn Đức</a></li>
+                                <li id="menu-item-26660"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26660"><a
+                                        href="http://ninhdon.com"
+                                        onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://ninhdon.com&#039;, &#039;Ninh Đôn&#039;);"
+                                        data-wpel-link="external" target="_blank"
+                                        rel="nofollow external noopener noreferrer">Ninh Đôn</a></li>
+                                <li id="menu-item-26661"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26661"><a
+                                        href="http://dinhtrang.com"
+                                        onclick="__gaTracker(&#039;send&#039;, &#039;event&#039;, &#039;outbound-widget&#039;, &#039;http://dinhtrang.com&#039;, &#039;Đinh Trang&#039;);"
+                                        data-wpel-link="external" target="_blank"
+                                        rel="nofollow external noopener noreferrer">Đinh Trang</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright"><p>Xin vui lòng trích nguồn <strong>Thach Pham Blog</strong> khi phát hành lại nội
+            dung trên website này.<br/>Giao diện thiết kế bởi <strong><a href="http://orange-themes.com" target="_blank"
+                                                                         data-wpel-link="external"
+                                                                         rel="nofollow external noopener noreferrer">orange-themes.com</a></strong>
+        </p></div>
+    </footer>
+    <div class="ot-responsive-menu-header"><a href="#" class="ot-responsive-menu-header-burger"
+                                              data-wpel-link="internal"> <i class="material-icons">menu</i> </a> <a
+            href="https://thachpham.com/" class="ot-responsive-menu-header-logo" data-wpel-link="internal"> <img
+            src="https://thachpham.com/wp-content/uploads/2015/01/tplogo2014.png" alt="Thach Pham"/> </a></div>
+</div>
+<div class="ot-responsive-menu-content-c-header"><a href="#" class="ot-responsive-menu-header-burger"
+                                                    data-wpel-link="internal"><i class="material-icons">menu</i></a>
+</div>
+<div class="ot-responsive-menu-content">
+    <div class="ot-responsive-menu-content-inner has-search">
+        <form action="https://thachpham.com/" method="get"><input type="text" value="" placeholder="Search" name="s"/>
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <ul id="responsive-menu-holder"></ul>
+    </div>
+</div>
+<div class="ot-responsive-menu-background"></div>
+<div class="lightbox ot-display-none">
+    <div class="lightcontent-loading">
+        <button class="light-close"><i class="fa fa-times"></i></button>
+        <div class="loading-box"><h3>Loading, Please Wait!</h3> <span>This may take a second or two.</span> <span
+                class="loading-image"><img width="47" height="47"
+                                           src="https://thachpham.com/wp-content/themes/composs/images/loading.gif"
+                                           title="Loading, Please Wait!" alt="Loading, Please Wait!"/></span></div>
+    </div>
+    <div class="lightcontent"></div>
+</div>
+<script type='text/javascript'>var seriesdropdown = document.getElementById("orgseries_dropdown");
+if (seriesdropdown) {
+    function onSeriesChange() {
+        if (seriesdropdown.options[seriesdropdown.selectedIndex].value != ( 0 || -1 )) {
+            location.href = "https://thachpham.com/series/" + seriesdropdown.options[seriesdropdown.selectedIndex].value;
+        }
+    }
+
+    seriesdropdown.onchange = onSeriesChange;
+}</script>
+<div style="display:none"></div>
+<script type="text/javascript"></script>
+<div id="om-m7vnav5aginnqvdg-holder"></div>
+<script>var m7vnav5aginnqvdg, m7vnav5aginnqvdg_poll = function () {
+    var r = 0;
+    return function (n, l) {
+        clearInterval(r), r = setInterval(n, l)
+    }
+}();
+!function (e, t, n) {
+    if (e.getElementById(n)) {
+        m7vnav5aginnqvdg_poll(function () {
+            if (window['om_loaded']) {
+                if (!m7vnav5aginnqvdg) {
+                    m7vnav5aginnqvdg = new OptinMonsterApp();
+                    return m7vnav5aginnqvdg.init({u: "758.180169", staging: 0});
+                }
+            }
+        }, 25);
+        return;
+    }
+    var d = false, o = e.createElement(t);
+    o.id = n, o.src = "//a.optinmonster.com/app/js/api.min.js", o.onload = o.onreadystatechange = function () {
+        if (!d) {
+            if (!this.readyState || this.readyState === "loaded" || this.readyState === "complete") {
+                try {
+                    d = om_loaded = true;
+                    m7vnav5aginnqvdg = new OptinMonsterApp();
+                    m7vnav5aginnqvdg.init({u: "758.180169", staging: 0});
+                    o.onload = o.onreadystatechange = null;
+                } catch (t) {
+                }
+            }
+        }
+    };
+    (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(o)
+}(document, "script", "omapi-script");</script>
+<script type="text/javascript">var m7vnav5aginnqvdg_shortcode = true;</script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201647'></script>
+<script type='text/javascript' src='https://thachpham.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://thachpham.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://thachpham.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript'
+        src='https://thachpham.com/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript'
+        src='https://thachpham.com/wp-content/plugins/ot-shortcodes/js/shortcode-scripts.min.js?ver=1.0'></script>
+<script type='text/javascript' src='https://thachpham.com/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4'></script>
+<script type='text/javascript'
+        src='https://thachpham.com/wp-includes/js/jquery/ui/effect-slide.min.js?ver=1.11.4'></script>
+<script type='text/javascript'
+        src='https://thachpham.com/wp-content/themes/composs/js/admin/jquery.c00kie.js?ver=1.0'></script>
+<script type='text/javascript'
+        src='https://thachpham.com/wp-content/themes/composs/js/bootstrap.min.js?ver=4.6.1'></script>
+<script type='text/javascript'
+        src='https://thachpham.com/wp-content/themes/composs/js/owl.carousel.min.js?ver=4.6.1'></script>
+<script type='text/javascript'
+        src='https://thachpham.com/wp-content/themes/composs/js/theme-scripts.min.js?ver=4.6.1'></script>
+<script type='text/javascript'
+        src='https://thachpham.com/wp-content/themes/composs/js/ot-lightbox.js?ver=4.6.1'></script>
+<script type='text/javascript'
+        src='https://thachpham.com/wp-content/themes/composs/js/jquery.event.move.js?ver=1.3.1'></script>
+<script type='text/javascript'
+        src='https://thachpham.com/wp-content/themes/composs/js/jquery.event.swipe.js?ver=4.6.1'></script>
+<script type='text/javascript' src='https://thachpham.com/wp-includes/js/comment-reply.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='https://thachpham.com/wp-content/themes/composs/js/ot_gallery.js?ver=1.0'></script>
+<script type='text/javascript' src='https://thachpham.com/wp-content/themes/composs/js/scripts.js?ver=1.0'></script>
+<script type='text/javascript' src='https://thachpham.com/wp-content/themes/composs/js/composs.js?ver=1.0.0'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js?ver=4.6.1'></script>
+<![endif]--> <!--[if lt IE 9]>
+<script type='text/javascript' src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js?ver=4.6.1'></script><![endif]-->
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js?ver=4.6.1'></script><![endif]-->
+<script type='text/javascript' src='https://thachpham.com/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201647.js' async defer></script>
+<script type='text/javascript'>_stq = window._stq || [];
+_stq.push(['view', {v: 'ext', j: '1:4.3.2', blog: '39271733', post: '4', tz: '7', srv: 'thachpham.com'}]);
+_stq.push(['clickTrackerInit', '39271733', '4']);</script>
+<script type='text/javascript'
+        src='https://thachpham.com/wp-content/uploads/essb_cache/490775e2fae6bb7d062bb723861aa1f2.js' defer></script>
+<script type="text/javascript">var omapi_localized = {
+    ajax: 'https://thachpham.com/wp-admin/admin-ajax.php?optin-monster-ajax-route=1',
+    nonce: 'e28eb03e42'
+};</script>
+<script>jQuery(document).ready(function ($) {
+    $('meta[content=noodp]').remove();
+});</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+/******************
+
+Customizer stylesheet
+
+******************/
+
+#customizer
+{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+    background: #f3f3f3;
+    background: -moz-linear-gradient(top, #f8f8f8 0%, #e8e8e8 100%);
+    background: -webkit-linear-gradient(top, #f8f8f8 0%, #e8e8e8 100%);
+    background: -ms-linear-gradient(top, #f8f8f8 0%, #e8e8e8 100%);
+    background: -o-linear-gradient(top, #f8f8f8 0%, #e8e8e8 100%);
+    background: linear-gradient(top, #f8f8f8 0%, #e8e8e8 100%);
+
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.33);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+.customizer-color
+{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    color: #fff;
+    line-height: 24px;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.customizer-color.active
+{
+    border-color: #F4F9FD;
+}
+
+#customizer ul
+{
+    margin-top: 10px;
+}
+
+#customizer ul a
+{
+    cursor: pointer;
+    font-size: 15px;
+    color: #2663A6;
+    text-decoration: underline;
+}
+
+#customizer ul a:hover, #customizer ul a.active
+{
+    color: #000;
+}
+
+#customizer ul a.active
+{
+    cursor: default;
+    text-decoration: none;
+}
